@@ -1,0 +1,659 @@
+{
+ "model": "small.en",
+ "sampled_sentences": 96,
+ "words": 1228,
+ "word_errors": 32,
+ "wer": 0.0261,
+ "worst": [
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-16-s1",
+   "script": "Instead, assume H-zero is true.",
+   "heard": "Instead, assume H0 is true.",
+   "wer": 0.333
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-20-s2",
+   "script": "Otherwise fail to reject H-zero.",
+   "heard": "otherwise fail to reject H0.",
+   "wer": 0.333
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-33-s1",
+   "script": "P less than alpha: reject H-zero.",
+   "heard": "P less than alpha, reject H0.",
+   "wer": 0.286
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-05-s1",
+   "script": "The PDF is not the probability at one exact point.",
+   "heard": "The PDF is not the probability at one exact point.",
+   "wer": 0.25
+  },
+  {
+   "id": "ch07s-two-independent-means-confidence-interva-06-s2",
+   "script": "If a confidence interval for mu1 minus mu2 contains zero, equal population means remain plausible.",
+   "heard": "If a confidence interval for mu1 minus mu2 contains 0, equal population means remain  plausible.",
+   "wer": 0.235
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-12-s1",
+   "script": "P-zero is the proportion asserted under the null.",
+   "heard": "P0 is the proportion asserted under the null.",
+   "wer": 0.222
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-15-s1",
+   "script": "Normal raw-value probability with known mu and sigma: standardize to z and use z-table.",
+   "heard": "normal raw value probability with known mu and sigma,  standardized to z and uz table.",
+   "wer": 0.188
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-07-s1",
+   "script": "The total area under a valid PDF must equal 1, because 1 means 100 percent probability.",
+   "heard": "The total area under a valid PDF must equal 1, because 1 means 100% probability.",
+   "wer": 0.158
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-15-s1",
+   "script": "Because H-a is less than, use the area below negative 1.2.",
+   "heard": "Because HA is less than, use the area below negative 1.2.",
+   "wer": 0.143
+  },
+  {
+   "id": "ch19-final-walk-through-confidence-interval-s-04-s1",
+   "script": "Standard error is square root of .62 times .38 divided by 100.",
+   "heard": "Standard error is square root of 0.62 times 0.38 divided by 100.",
+   "wer": 0.118
+  },
+  {
+   "id": "ch06-confidence-intervals-what-are-they-actua-04-s1",
+   "script": "Margin of error equals critical value times standard error.",
+   "heard": "Margin of error equals critical value time standard error.",
+   "wer": 0.111
+  },
+  {
+   "id": "intro-what-this-exam-is-really-about-01-s1",
+   "script": "Welcome to the STAT 251 Exam 2 soccer edition.",
+   "heard": "Welcome to the STAT 251, Exam 2 Soccer Edition.",
+   "wer": 0.091
+  }
+ ],
+ "all": [
+  {
+   "id": "intro-what-this-exam-is-really-about-01-s1",
+   "script": "Welcome to the STAT 251 Exam 2 soccer edition.",
+   "heard": "Welcome to the STAT 251, Exam 2 Soccer Edition.",
+   "wer": 0.091
+  },
+  {
+   "id": "intro-what-this-exam-is-really-about-02-s3",
+   "script": "Module 5 is confidence intervals.",
+   "heard": "Module 5 is Confidence Intervals.",
+   "wer": 0.0
+  },
+  {
+   "id": "intro-what-this-exam-is-really-about-03-s3",
+   "script": "First, we might know a probability model and want to calculate the chance of something happening.",
+   "heard": "First, we might know a probability model and want to calculate the chance of something happening.",
+   "wer": 0.0
+  },
+  {
+   "id": "intro-what-this-exam-is-really-about-04-s3",
+   "script": "If you already know a goalkeeper saves 20 percent of penalties, you might ask, what is the probability of a certain outcome?",
+   "heard": "If you already know a goalkeeper saves 20% of penalties,  you might ask,  what is the probability of a certain outcome?",
+   "wer": 0.0
+  },
+  {
+   "id": "intro-what-this-exam-is-really-about-05-s1",
+   "script": "That difference — probability versus inference — is the first thing I want you to keep in your head.",
+   "heard": "That difference, probability versus inference, is the first thing I want you to keep in your  head.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch01-population-sample-parameter-statistic-03-s2",
+   "script": "Maybe you randomly collect GPA data from 114 students.",
+   "heard": "Maybe you randomly collect GPA data from 114 students.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch01-population-sample-parameter-statistic-04-s5",
+   "script": "That is why we are doing statistics.",
+   "heard": "That is why we are doing statistics.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch01-population-sample-parameter-statistic-07-s1",
+   "script": "If a question says, “Thirty-two percent of the sampled students…” that is a sample proportion, p-hat.",
+   "heard": "If a question says 32% of the sampled students,  that is a sample proportion, p-hat.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-02-s1",
+   "script": "A random variable is a numerical way to represent an uncertain outcome.",
+   "heard": "A random variable is a numerical way to represent an uncertain outcome.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-05-s1",
+   "script": "The PDF is not the probability at one exact point.",
+   "heard": "The PDF is not the probability at one exact point.",
+   "wer": 0.25
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-07-s1",
+   "script": "The total area under a valid PDF must equal 1, because 1 means 100 percent probability.",
+   "heard": "The total area under a valid PDF must equal 1, because 1 means 100% probability.",
+   "wer": 0.158
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-09-s3",
+   "script": "The definition is F of x equals P of X less than or equal to x.",
+   "heard": "The definition is f of x equals p of x less than or equal to x.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-11-s3",
+   "script": "P of a less than X less than or equal to b equals F of b minus F of a.",
+   "heard": "p of a less than x less than or equal to b equals f of b minus f of a.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch02-continuous-random-variables-what-are-you-13-s2",
+   "script": "One convenient form is E of X squared minus mu squared.",
+   "heard": "One convenient form is e of x squared minus mu squared.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-01-s1",
+   "script": "The professor’s guide identifies three continuous distributions you need to recognize: Uniform, Exponential, and Normal.",
+   "heard": "The professor's guide identifies three continuous distributions  you need to recognize, uniform, exponential, and normal.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-04-s1",
+   "script": "If X is Uniform from a to b, the mean is the midpoint and the variance depends on the square of the interval width.",
+   "heard": "If x is uniform from a to b, the mean is the midpoint, and the variance depends on the  square of the interval width.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-08-s1",
+   "script": "Use Exponential for time until the first event when arrivals happen at a constant average rate.",
+   "heard": "Use exponential for time until the first event,  when arrivals happen at a constant average rate.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-09-s3",
+   "script": "Do not confuse a rate of five per hour with a waiting time of five hours.",
+   "heard": "Do not confuse a rate of five per hour with a waiting time of five hours.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-12-s1",
+   "script": "Keep the professor’s exact example.",
+   "heard": "Keep the professor's exact example.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-14-s1",
+   "script": "The Normal distribution is the bell-shaped curve.",
+   "heard": "The normal distribution is the bell-shaped curve.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch03-uniform-exponential-and-normal-16-s1",
+   "script": "The Normal distribution is important because many real measurements are roughly bell-shaped and because the Central Limit Theorem makes Normal models show up in inference even when the original population is not perfectly Normal.",
+   "heard": "The normal distribution is important because many real measurements are roughly bell-shaped.  And because the central limit theorem makes normal models show up in inference, even when  the original population is not perfectly normal.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch04-z-scores-and-the-z-table-01-s1",
+   "script": "A z-score converts a raw value into “how many standard deviations from the mean.”",
+   "heard": "A z-score converts a raw value into how many standard deviations from the mean.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch04-z-scores-and-the-z-table-04-s2",
+   "script": "This matters because the professor says the exam will provide the z-table and you must use it.",
+   "heard": "This matters because the professor says the exam will provide the Z table, and you must  use it.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch04-z-scores-and-the-z-table-06-s4",
+   "script": "That is the cumulative probability to the left of z equal to 1.20.",
+   "heard": "That is the cumulative probability to the left of z equal to 1.20.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch04-z-scores-and-the-z-table-10-s1",
+   "script": "For a two-sided outside probability beyond plus or minus some z, find one tail and multiply by 2 if the Normal curve is symmetric.",
+   "heard": "for a two-sided outside probability beyond plus or minus some z.  Find one tail and multiply by two if the normal curve is symmetric.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch05-the-central-limit-theorem-and-standard-e-01-s1",
+   "script": "Now we bridge Module 4 into Module 5.",
+   "heard": "Now we bridge Module 4 into Module 5.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch05-the-central-limit-theorem-and-standard-e-03-s3",
+   "script": "Its standard error is sigma divided by the square root of n.",
+   "heard": "Its standard error is sigma divided by the square root of n.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch05-the-central-limit-theorem-and-standard-e-06-s2",
+   "script": "Bigger sample means more precise estimate.",
+   "heard": "Bigger sample means more precise estimate.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06-confidence-intervals-what-are-they-actua-04-s1",
+   "script": "Margin of error equals critical value times standard error.",
+   "heard": "Margin of error equals critical value time standard error.",
+   "wer": 0.111
+  },
+  {
+   "id": "ch06-confidence-intervals-what-are-they-actua-10-s1",
+   "script": "If the question asks for the percentage of goalkeepers who prefer natural grass, the target is one proportion p.",
+   "heard": "If the question asks for the percentage of goalkeepers  who prefer natural grass,  the target is one proportion p.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06-confidence-intervals-what-are-they-actua-13-s1",
+   "script": "If you compare average reaction time for two independent goalkeeper training groups, the target is mu-one minus mu-two.",
+   "heard": "If you compare average reaction time  for two independent goalkeeper training groups,  the target is mu one minus mu two.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-one-proportion-confidence-interval-02-s2",
+   "script": "Read the symbol p-hat as the observed fraction in the sample, q-hat as the opposite fraction, and n as the number sampled.",
+   "heard": "Read the symbol p-hat as the observed fraction in the sample, q-hat as the opposite fraction,  and n as the number sampled.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-one-proportion-confidence-interval-04-s4",
+   "script": "For 95 percent confidence you look for 0.9750 cumulative left-area, giving z-star about 1.96.",
+   "heard": "For 95% confidence, you look for 0.9750 cumulative left area, giving Z star about 1.96.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-one-proportion-confidence-interval-07-s1",
+   "script": "Do NOT say there is a 95 percent probability that the fixed population parameter is in this particular interval.",
+   "heard": "Do not say there is a 95% probability that the fixed population parameter is in this  particular interval.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-two-proportions-confidence-interval-04-s1",
+   "script": "Subscripts one and two mean the two independent soccer groups.",
+   "heard": "Subscripts 1 and 2 mean the two independent soccer groups.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-one-mean-confidence-interval-01-s1",
+   "script": "Use this when estimating one population average and population sigma is unknown, which is the normal situation in this class.",
+   "heard": "Use this when estimating one population average and population sigma is unknown, which is  the normal situation in this class.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch06s-one-mean-confidence-interval-04-s2",
+   "script": "Degrees of freedom are n minus 1.",
+   "heard": "Degrees of freedom are n minus 1.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch07-what-is-the-t-distribution-and-how-do-i-02-s3",
+   "script": "As degrees of freedom become very large, the t-distribution approaches the standard Normal distribution.",
+   "heard": "As degrees of freedom become very large, the t-distribution approaches the standard normal  distribution.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch07-what-is-the-t-distribution-and-how-do-i-05-s1",
+   "script": "For a 95 percent two-sided confidence interval, alpha equals .05 total, so each tail has .025.",
+   "heard": "For a 95 percent 2-sided confidence interval, alpha equals .05 total, so each tail has .025.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch07-what-is-the-t-distribution-and-how-do-i-08-s1",
+   "script": "One-sided intervals have only one finite endpoint.",
+   "heard": "One-sided intervals have only one finite endpoint.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch07s-two-independent-means-confidence-interva-04-s1",
+   "script": "Use a t critical value with Welch degrees of freedom.",
+   "heard": "Use a T-critical value with Welch degrees of freedom.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch07s-two-independent-means-confidence-interva-06-s2",
+   "script": "If a confidence interval for mu1 minus mu2 contains zero, equal population means remain plausible.",
+   "heard": "If a confidence interval for mu1 minus mu2 contains 0, equal population means remain  plausible.",
+   "wer": 0.235
+  },
+  {
+   "id": "ch07s-paired-difference-confidence-interval-02-s2",
+   "script": "First compute each pair’s difference d.",
+   "heard": "First, compute each pair's difference d.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch08-confidence-interval-sample-size-for-a-pr-02-s1",
+   "script": "Begin with the margin-of-error formula for a single proportion, then algebraically rearrange it to solve for the sample size.",
+   "heard": "Begin with the margin of error formula for a single proportion, then algebraically rearrange  it to solve for the sample size.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch08-confidence-interval-sample-size-for-a-pr-05-s3",
+   "script": "Why?",
+   "heard": "Why?",
+   "wer": 0.0
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-01-s1",
+   "script": "Confidence intervals ask, “What parameter values are plausible?”",
+   "heard": "Confidence intervals ask, what parameter values are plausible?",
+   "wer": 0.0
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-05-s2",
+   "script": "It can be less than, greater than, or not equal.",
+   "heard": "It can be less than, greater than, or not equal.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-10-s1",
+   "script": "Calculate the test statistic.",
+   "heard": "Calculate the test statistic.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-16-s1",
+   "script": "Instead, assume H-zero is true.",
+   "heard": "Instead, assume H0 is true.",
+   "wer": 0.333
+  },
+  {
+   "id": "ch09-hypothesis-testing-the-big-idea-20-s2",
+   "script": "Otherwise fail to reject H-zero.",
+   "heard": "otherwise fail to reject H0.",
+   "wer": 0.333
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-03-s2",
+   "script": "Right-tailed test.",
+   "heard": "Right Tailed Test.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-08-s1",
+   "script": "Two-sided p-value: take the one-tail extreme area and multiply by two.",
+   "heard": "two-sided p-value.  Take the one-tail extreme area and multiply by two.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-12-s1",
+   "script": "P-zero is the proportion asserted under the null.",
+   "heard": "P0 is the proportion asserted under the null.",
+   "wer": 0.222
+  },
+  {
+   "id": "ch10-tails-how-h-a-tells-you-the-p-value-area-15-s1",
+   "script": "Because H-a is less than, use the area below negative 1.2.",
+   "heard": "Because HA is less than, use the area below negative 1.2.",
+   "wer": 0.143
+  },
+  {
+   "id": "ch11s-one-proportion-test-02-s1",
+   "script": "For one population percentage, use the following one-proportion z-test formula.",
+   "heard": "For one population percentage, use the following one proportion Z test formula.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-two-proportions-test-02-s3",
+   "script": "We keep these original numbers as the lecture taught them.",
+   "heard": "We keep these original numbers as the lecture taught them.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-two-proportions-test-05-s1",
+   "script": "Because this is an instructor example, the lecture’s unpooled standardization is used for the reported numerical result.",
+   "heard": "Because this is an instructor example, the lecture's unpooled standardization is used  for the reported numerical result.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-one-mean-test-03-s2",
+   "script": "X-bar is the observed sample average; mu-zero is the claimed mean; s divided by square root n is the estimated standard error.",
+   "heard": "X bar is the observed sample average.  Mu zero is the claimed mean.  S divided by square root n is the estimated standard error.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-one-mean-test-07-s2",
+   "script": "Because the alternative is not equal, it is a two-sided test.",
+   "heard": "Because the alternative is not equal, it is a two-sided test.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-two-independent-means-test-03-s1",
+   "script": "The two-independent-means t statistic divides the observed difference minus the hypothesized difference by the combined standard error.",
+   "heard": "The two independent means t statistic divides the observed difference minus the hypothesized  difference by the combined standard error.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-two-independent-means-test-06-s2",
+   "script": "The test statistic is about negative 1.083.",
+   "heard": "The test statistic is about negative 1.083.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch11s-paired-mean-test-02-s2",
+   "script": "This is a one-sample t-test on d, rather than a two-independent-samples test.",
+   "heard": "This is a one-sample t-test on D, rather than a two independent samples test.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch12-conditions-when-are-the-formulas-legal-03-s1",
+   "script": "Randomization.",
+   "heard": "Randomization",
+   "wer": 0.0
+  },
+  {
+   "id": "ch12-conditions-when-are-the-formulas-legal-09-s1",
+   "script": "Success/failure for both.",
+   "heard": "success failure for both.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch12-conditions-when-are-the-formulas-legal-15-s1",
+   "script": "For two independent means:",
+   "heard": "for two independent means.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch12-conditions-when-are-the-formulas-legal-21-s1",
+   "script": "The 10 percent condition means your sample should not be more than 10 percent of the population when sampling without replacement.",
+   "heard": "The 10% condition means your sample should not be more than 10% of the population when  sampling without replacement.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch12-conditions-when-are-the-formulas-legal-23-s2",
+   "script": "If the sample is small, look for a roughly Normal shape and no severe outliers.",
+   "heard": "If the sample is small, look for a roughly normal shape and no severe outliers.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch13-type-i-error-type-ii-error-alpha-beta-an-04-s1",
+   "script": "Power equals one minus beta.",
+   "heard": "Power equals 1 minus beta.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch13-type-i-error-type-ii-error-alpha-beta-an-06-s1",
+   "script": "What increases power?",
+   "heard": "What increases power?",
+   "wer": 0.0
+  },
+  {
+   "id": "ch14-confidence-intervals-and-hypothesis-test-01-s1",
+   "script": "A two-sided hypothesis test at alpha .05 and a 95 percent two-sided confidence interval tell closely related stories.",
+   "heard": "A two-sided hypothesis test at alpha.05 and a 95% two-sided confidence interval tell closely  related stories.",
+   "wer": 0.087
+  },
+  {
+   "id": "ch14-confidence-intervals-and-hypothesis-test-05-s2",
+   "script": "If your CI includes zero but your two-sided test says reject equality at the matching level, something probably went wrong.",
+   "heard": "If your CI includes zero, but your two-sided test says reject equality at the matching  level, something probably went wrong.",
+   "wer": 0.091
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-04-s2",
+   "script": "Confidence interval, Module 5.",
+   "heard": "Confidence Interval, Module 5.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-09-s1",
+   "script": "One mean: mu.",
+   "heard": "One mean, mu.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-15-s1",
+   "script": "Normal raw-value probability with known mu and sigma: standardize to z and use z-table.",
+   "heard": "normal raw value probability with known mu and sigma,  standardized to z and uz table.",
+   "wer": 0.188
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-21-s1",
+   "script": "For a paired before-after mean difference, the formula is:",
+   "heard": "For a paired before and after mean difference, the formula is...",
+   "wer": 0.0
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-27-s1",
+   "script": "Step 6: Check conditions.",
+   "heard": "Step six, check conditions.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch15-your-exam-day-decision-tree-33-s1",
+   "script": "P less than alpha: reject H-zero.",
+   "heard": "P less than alpha, reject H0.",
+   "wer": 0.286
+  },
+  {
+   "id": "ch16-wording-cues-that-should-trigger-a-metho-01-s1",
+   "script": "Let’s make this automatic.",
+   "heard": "Let's make this automatic.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch16-wording-cues-that-should-trigger-a-metho-06-s1",
+   "script": "“Estimate the percentage of all…” — one-proportion confidence interval.",
+   "heard": "Estimate the percentage of all, one proportion confidence interval.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch16-wording-cues-that-should-trigger-a-metho-12-s1",
+   "script": "“Do these two groups have different proportions?” — two-proportion z test.",
+   "heard": "Do these two groups have different proportions?  Two-proportion Z-test.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch17-common-traps-02-s1",
+   "script": "Trap 2: Using p-hat in the one-proportion hypothesis-test standard error.",
+   "heard": "Trap 2, using p-hat in the one-proportion hypothesis test, standard error.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch17-common-traps-04-s2",
+   "script": "It gives area to the LEFT.",
+   "heard": "It gives area to the left.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch17-common-traps-07-s1",
+   "script": "Trap 7: Forgetting to double a one-tail p-value for a symmetric two-sided test.",
+   "heard": "Trap 7, forgetting to double a one-tail p-value for a symmetric two-sided test.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch17-common-traps-11-s1",
+   "script": "Trap 11: Ignoring units.",
+   "heard": "Trap 11, ignoring units.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch18-final-walk-through-one-complete-exam-sty-01-s3",
+   "script": "You suspect the group is actually SLOWER, meaning the mean time is greater than 0.400.",
+   "heard": "You suspect the group is actually slower, meaning the mean time is greater than 0.400.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch18-final-walk-through-one-complete-exam-sty-04-s2",
+   "script": "The alternative says the true mean is greater than 0.400 seconds.",
+   "heard": "The alternative says the true mean is greater than 0.400 seconds.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch18-final-walk-through-one-complete-exam-sty-07-s1",
+   "script": "The numerator is 0.424 minus 0.400, which equals 0.024.",
+   "heard": "The numerator is 0.424 minus 0.400, which equals 0.024.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch18-final-walk-through-one-complete-exam-sty-09-s3",
+   "script": "Therefore the p-value is between 0.01 and 0.025.",
+   "heard": "Therefore, the p-value is between 0.01 and 0.025.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch18-final-walk-through-one-complete-exam-sty-11-s4",
+   "script": "Write the correct standard error.",
+   "heard": "Write the correct standard error.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch19-final-walk-through-confidence-interval-s-01-s2",
+   "script": "In a random sample of 100 soccer players, 62 prefer morning training.",
+   "heard": "In a random sample of 100 soccer players, 62 prefer morning training.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch19-final-walk-through-confidence-interval-s-04-s1",
+   "script": "Standard error is square root of .62 times .38 divided by 100.",
+   "heard": "Standard error is square root of 0.62 times 0.38 divided by 100.",
+   "wer": 0.118
+  },
+  {
+   "id": "ch19-final-walk-through-confidence-interval-s-07-s1",
+   "script": "Interpretation: we are 95 percent confident the true population proportion is between the two endpoints you calculate.",
+   "heard": "Interpretation. We are 95% confident the true population proportion is between the two endpoints you calculate.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch20-last-five-minutes-what-to-remember-if-ev-02-s2",
+   "script": "Exact-point probability is zero.",
+   "heard": "Exact point probability is zero.",
+   "wer": 0.0
+  },
+  {
+   "id": "ch20-last-five-minutes-what-to-remember-if-ev-08-s1",
+   "script": "Seven: your t-table uses degrees of freedom and UPPER-TAIL probability.",
+   "heard": "7. Your tea table uses degrees of freedom and upper-tail probability.",
+   "wer": 0.083
+  },
+  {
+   "id": "ch20-last-five-minutes-what-to-remember-if-ev-13-s1",
+   "script": "That is the real structure behind this entire exam.",
+   "heard": "That is the real structure behind this entire exam.",
+   "wer": 0.0
+  },
+  {
+   "id": "outro-how-to-replay-this-episode-02-s4",
+   "script": "What is the standard error?",
+   "heard": "What is the standard error?",
+   "wer": 0.0
+  }
+ ]
+}

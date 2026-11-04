@@ -1,0 +1,2784 @@
+{
+  "fps": 30,
+  "durationSeconds": 2988.17,
+  "chapters": [
+    {
+      "id": "intro-what-this-exam-is-really-about",
+      "heading": "INTRO — WHAT THIS EXAM IS REALLY ABOUT",
+      "kind": "intro",
+      "cardStartSeconds": 6,
+      "endSeconds": 125.47
+    },
+    {
+      "id": "ch01-population-sample-parameter-statistic",
+      "heading": "CHAPTER 1 — POPULATION, SAMPLE, PARAMETER, STATISTIC",
+      "kind": "chapter",
+      "cardStartSeconds": 125.47,
+      "endSeconds": 231.47
+    },
+    {
+      "id": "ch02-continuous-random-variables-what-are-you",
+      "heading": "CHAPTER 2 — CONTINUOUS RANDOM VARIABLES: WHAT ARE YOU LOOKING AT?",
+      "kind": "chapter",
+      "cardStartSeconds": 231.47,
+      "endSeconds": 437.3
+    },
+    {
+      "id": "ch03-uniform-exponential-and-normal",
+      "heading": "CHAPTER 3 — UNIFORM, EXPONENTIAL, AND NORMAL",
+      "kind": "chapter",
+      "cardStartSeconds": 437.3,
+      "endSeconds": 701.9
+    },
+    {
+      "id": "ch04-z-scores-and-the-z-table",
+      "heading": "CHAPTER 4 — Z-SCORES AND THE Z-TABLE",
+      "kind": "chapter",
+      "cardStartSeconds": 701.9,
+      "endSeconds": 839.43
+    },
+    {
+      "id": "ch05-the-central-limit-theorem-and-standard-e",
+      "heading": "CHAPTER 5 — THE CENTRAL LIMIT THEOREM AND STANDARD ERROR",
+      "kind": "chapter",
+      "cardStartSeconds": 839.43,
+      "endSeconds": 918.63
+    },
+    {
+      "id": "ch06-confidence-intervals-what-are-they-actua",
+      "heading": "CHAPTER 6 — CONFIDENCE INTERVALS: WHAT ARE THEY ACTUALLY DOING?",
+      "kind": "chapter",
+      "cardStartSeconds": 918.63,
+      "endSeconds": 1025.8
+    },
+    {
+      "id": "ch06s-one-proportion-confidence-interval",
+      "heading": "ONE PROPORTION CONFIDENCE INTERVAL",
+      "kind": "subsection",
+      "cardStartSeconds": 1025.8,
+      "endSeconds": 1136.8
+    },
+    {
+      "id": "ch06s-two-proportions-confidence-interval",
+      "heading": "TWO PROPORTIONS CONFIDENCE INTERVAL",
+      "kind": "subsection",
+      "cardStartSeconds": 1136.8,
+      "endSeconds": 1189.1
+    },
+    {
+      "id": "ch06s-one-mean-confidence-interval",
+      "heading": "ONE MEAN CONFIDENCE INTERVAL",
+      "kind": "subsection",
+      "cardStartSeconds": 1189.1,
+      "endSeconds": 1230.33
+    },
+    {
+      "id": "ch07-what-is-the-t-distribution-and-how-do-i",
+      "heading": "CHAPTER 7 — WHAT IS THE T-DISTRIBUTION AND HOW DO I USE THE T-TABLE?",
+      "kind": "chapter",
+      "cardStartSeconds": 1230.33,
+      "endSeconds": 1351.6
+    },
+    {
+      "id": "ch07s-two-independent-means-confidence-interva",
+      "heading": "TWO INDEPENDENT MEANS CONFIDENCE INTERVAL",
+      "kind": "subsection",
+      "cardStartSeconds": 1351.6,
+      "endSeconds": 1407
+    },
+    {
+      "id": "ch07s-paired-difference-confidence-interval",
+      "heading": "PAIRED DIFFERENCE CONFIDENCE INTERVAL",
+      "kind": "subsection",
+      "cardStartSeconds": 1407,
+      "endSeconds": 1459.5
+    },
+    {
+      "id": "ch08-confidence-interval-sample-size-for-a-pr",
+      "heading": "CHAPTER 8 — CONFIDENCE INTERVAL SAMPLE SIZE FOR A PROPORTION",
+      "kind": "chapter",
+      "cardStartSeconds": 1459.5,
+      "endSeconds": 1541.33
+    },
+    {
+      "id": "ch09-hypothesis-testing-the-big-idea",
+      "heading": "CHAPTER 9 — HYPOTHESIS TESTING: THE BIG IDEA",
+      "kind": "chapter",
+      "cardStartSeconds": 1541.33,
+      "endSeconds": 1654.6
+    },
+    {
+      "id": "ch10-tails-how-h-a-tells-you-the-p-value-area",
+      "heading": "CHAPTER 10 — TAILS: HOW H-A TELLS YOU THE P-VALUE AREA",
+      "kind": "chapter",
+      "cardStartSeconds": 1654.6,
+      "endSeconds": 1781.63
+    },
+    {
+      "id": "ch11-which-hypothesis-test-formula-do-i-use",
+      "heading": "CHAPTER 11 — WHICH HYPOTHESIS TEST FORMULA DO I USE?",
+      "kind": "chapter",
+      "cardStartSeconds": 1781.63,
+      "endSeconds": 1787.3
+    },
+    {
+      "id": "ch11s-one-proportion-test",
+      "heading": "ONE PROPORTION TEST",
+      "kind": "subsection",
+      "cardStartSeconds": 1787.3,
+      "endSeconds": 1803.77
+    },
+    {
+      "id": "ch11s-two-proportions-test",
+      "heading": "TWO PROPORTIONS TEST",
+      "kind": "subsection",
+      "cardStartSeconds": 1803.77,
+      "endSeconds": 1880.7
+    },
+    {
+      "id": "ch11s-one-mean-test",
+      "heading": "ONE MEAN TEST",
+      "kind": "subsection",
+      "cardStartSeconds": 1880.7,
+      "endSeconds": 1952.23
+    },
+    {
+      "id": "ch11s-two-independent-means-test",
+      "heading": "TWO INDEPENDENT MEANS TEST",
+      "kind": "subsection",
+      "cardStartSeconds": 1952.23,
+      "endSeconds": 2014.3
+    },
+    {
+      "id": "ch11s-paired-mean-test",
+      "heading": "PAIRED MEAN TEST",
+      "kind": "subsection",
+      "cardStartSeconds": 2014.3,
+      "endSeconds": 2048.03
+    },
+    {
+      "id": "ch12-conditions-when-are-the-formulas-legal",
+      "heading": "CHAPTER 12 — CONDITIONS: WHEN ARE THE FORMULAS LEGAL?",
+      "kind": "chapter",
+      "cardStartSeconds": 2048.03,
+      "endSeconds": 2144.5
+    },
+    {
+      "id": "ch13-type-i-error-type-ii-error-alpha-beta-an",
+      "heading": "CHAPTER 13 — TYPE I ERROR, TYPE II ERROR, ALPHA, BETA, AND POWER",
+      "kind": "chapter",
+      "cardStartSeconds": 2144.5,
+      "endSeconds": 2209.67
+    },
+    {
+      "id": "ch14-confidence-intervals-and-hypothesis-test",
+      "heading": "CHAPTER 14 — CONFIDENCE INTERVALS AND HYPOTHESIS TESTS ARE TWO VIEWS OF THE SAME IDEA",
+      "kind": "chapter",
+      "cardStartSeconds": 2209.67,
+      "endSeconds": 2257.9
+    },
+    {
+      "id": "ch15-your-exam-day-decision-tree",
+      "heading": "CHAPTER 15 — YOUR EXAM-DAY DECISION TREE",
+      "kind": "chapter",
+      "cardStartSeconds": 2257.9,
+      "endSeconds": 2399.4
+    },
+    {
+      "id": "ch16-wording-cues-that-should-trigger-a-metho",
+      "heading": "CHAPTER 16 — WORDING CUES THAT SHOULD TRIGGER A METHOD",
+      "kind": "chapter",
+      "cardStartSeconds": 2399.4,
+      "endSeconds": 2485.27
+    },
+    {
+      "id": "ch17-common-traps",
+      "heading": "CHAPTER 17 — COMMON TRAPS",
+      "kind": "chapter",
+      "cardStartSeconds": 2485.27,
+      "endSeconds": 2576.93
+    },
+    {
+      "id": "ch18-final-walk-through-one-complete-exam-sty",
+      "heading": "CHAPTER 18 — FINAL WALK-THROUGH: ONE COMPLETE EXAM-STYLE SCENARIO",
+      "kind": "chapter",
+      "cardStartSeconds": 2576.93,
+      "endSeconds": 2745.43
+    },
+    {
+      "id": "ch19-final-walk-through-confidence-interval-s",
+      "heading": "CHAPTER 19 — FINAL WALK-THROUGH: CONFIDENCE INTERVAL SCENARIO",
+      "kind": "chapter",
+      "cardStartSeconds": 2745.43,
+      "endSeconds": 2864.63
+    },
+    {
+      "id": "ch20-last-five-minutes-what-to-remember-if-ev",
+      "heading": "CHAPTER 20 — LAST FIVE MINUTES: WHAT TO REMEMBER IF EVERYTHING ELSE DISAPPEARS",
+      "kind": "chapter",
+      "cardStartSeconds": 2864.63,
+      "endSeconds": 2945.27
+    },
+    {
+      "id": "outro-how-to-replay-this-episode",
+      "heading": "OUTRO — HOW TO REPLAY THIS EPISODE",
+      "kind": "outro",
+      "cardStartSeconds": 2945.27,
+      "endSeconds": 2987.17
+    }
+  ],
+  "scenes": [
+    {
+      "id": "intro-welcome",
+      "type": "IntroWelcome",
+      "tag": "soccer",
+      "sourceLines": [
+        8,
+        8
+      ],
+      "description": "Goalkeeper session on an original pitch; legend separating professor examples (amber) from soccer analogies (green).",
+      "startSeconds": 8.5,
+      "endSeconds": 37.07,
+      "steps": [
+        {
+          "segmentId": "intro-what-this-exam-is-really-about-01",
+          "startSeconds": 8.5
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "intro-scope",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        10,
+        10
+      ],
+      "description": "Exam 2 scope cards: Modules 4/5/6 and the provided z- and t-tables.",
+      "startSeconds": 37.07,
+      "endSeconds": 69.27,
+      "steps": [
+        {
+          "segmentId": "intro-what-this-exam-is-really-about-02",
+          "startSeconds": 37.07
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "intro-big-picture",
+      "type": "ProbVsInference",
+      "tag": "concept",
+      "sourceLines": [
+        12,
+        16
+      ],
+      "description": "Split screen: probability (known save rate) vs inference (sample of games → unknown save rate); CI estimates, test challenges.",
+      "startSeconds": 69.27,
+      "endSeconds": 125.47,
+      "steps": [
+        {
+          "segmentId": "intro-what-this-exam-is-really-about-03",
+          "startSeconds": 69.27
+        },
+        {
+          "segmentId": "intro-what-this-exam-is-really-about-04",
+          "startSeconds": 90.33
+        },
+        {
+          "segmentId": "intro-what-this-exam-is-really-about-05",
+          "startSeconds": 119.7
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch01-roster",
+      "type": "PopulationSample",
+      "tag": "concept",
+      "sourceLines": [
+        21,
+        31
+      ],
+      "description": "Full roster of stylised players = population; random spotlight = sample; μ, p vs x̄, p̂, s labels.",
+      "startSeconds": 127.97,
+      "endSeconds": 196.87,
+      "steps": [
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-01",
+          "startSeconds": 127.97
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-02",
+          "startSeconds": 131.7
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-03",
+          "startSeconds": 149.23
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-04",
+          "startSeconds": 160.87
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-05",
+          "startSeconds": 175.53
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-06",
+          "startSeconds": 188.8
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch01-notation",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        33,
+        37
+      ],
+      "description": "Wording → symbol cards: p̂ vs p, x̄ vs μ.",
+      "startSeconds": 196.87,
+      "endSeconds": 231.47,
+      "steps": [
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-07",
+          "startSeconds": 196.87
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-08",
+          "startSeconds": 209.13
+        },
+        {
+          "segmentId": "ch01-population-sample-parameter-statistic-09",
+          "startSeconds": 224.33
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch02-continuous",
+      "type": "ContinuousStopwatch",
+      "tag": "soccer",
+      "sourceLines": [
+        42,
+        46
+      ],
+      "description": "Goalkeeper stopwatch zooms through decimals 0.4 → 0.42017; number line zoom shows infinitely many values.",
+      "startSeconds": 233.97,
+      "endSeconds": 276.27,
+      "steps": [
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-01",
+          "startSeconds": 233.97
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-02",
+          "startSeconds": 238.73
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-03",
+          "startSeconds": 264.8
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch02-pdf",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        48,
+        56
+      ],
+      "description": "Density curve; probability as shaded area; P(X=x)=0 sliver; total area 1; area from a to b.",
+      "startSeconds": 276.27,
+      "endSeconds": 338,
+      "steps": [
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-04",
+          "startSeconds": 276.27
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-05",
+          "startSeconds": 284.6
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-06",
+          "startSeconds": 293.1
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-07",
+          "startSeconds": 312.1
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-08",
+          "startSeconds": 322.03
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 58,
+          "tex": "f(x)\\ge0,\\qquad \\int_{-\\infty}^{\\infty}f(x)\\,dx=1,\\qquad P(X=x)=0",
+          "appearSeconds": 322.4
+        }
+      ]
+    },
+    {
+      "id": "ch02-cdf",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        60,
+        68
+      ],
+      "description": "CDF accumulates area from the left (yellow curve); goal-timing F(20); shortcuts 1−F(x) and F(b)−F(a).",
+      "startSeconds": 338,
+      "endSeconds": 388.97,
+      "steps": [
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-09",
+          "startSeconds": 338
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-10",
+          "startSeconds": 351.23
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-11",
+          "startSeconds": 366.73
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 62,
+          "tex": "P(a<X<b)=\\int_a^b f(x)\\,dx",
+          "appearSeconds": 338.37
+        },
+        {
+          "sourceLine": 68,
+          "tex": "F(x)=P(X\\le x)=\\int_{-\\infty}^{x} f(t)\\,dt,\\quad P(a<X<b)=F(b)-F(a)",
+          "appearSeconds": 367.1
+        }
+      ]
+    },
+    {
+      "id": "ch02-meanvar",
+      "type": "CurveScene",
+      "tag": "soccer",
+      "sourceLines": [
+        70,
+        77
+      ],
+      "description": "Mean as center, SD as spread; two reaction-time curves with the same mean 0.40 s and SD 0.02 vs 0.10.",
+      "startSeconds": 388.97,
+      "endSeconds": 437.3,
+      "steps": [
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-12",
+          "startSeconds": 388.97
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-13",
+          "startSeconds": 406.77
+        },
+        {
+          "segmentId": "ch02-continuous-random-variables-what-are-you-14",
+          "startSeconds": 416.53
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 72,
+          "tex": "\\mu=E[X]=\\int_{-\\infty}^{\\infty}x f(x)\\,dx",
+          "appearSeconds": 389.33
+        },
+        {
+          "sourceLine": 73,
+          "tex": "\\sigma^2=\\operatorname{Var}(X)=E[X^2]-\\mu^2=\\int(x-\\mu)^2f(x)\\,dx",
+          "appearSeconds": 389.33
+        }
+      ]
+    },
+    {
+      "id": "ch03-shapes",
+      "type": "ThreeShapes",
+      "tag": "concept",
+      "sourceLines": [
+        82,
+        82
+      ],
+      "description": "Uniform, Exponential and Normal side by side.",
+      "startSeconds": 439.8,
+      "endSeconds": 448.4,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-01",
+          "startSeconds": 439.8
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch03-uniform",
+      "type": "UniformDrill",
+      "tag": "soccer",
+      "sourceLines": [
+        84,
+        98
+      ],
+      "description": "Randomised drill start between 0 and 20 minutes; flat density; mean 10; shaded 5–10 = 25%.",
+      "startSeconds": 448.4,
+      "endSeconds": 506.7,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-02",
+          "startSeconds": 448.4
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-03",
+          "startSeconds": 450.13
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-04",
+          "startSeconds": 468.23
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-05",
+          "startSeconds": 482.7
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-06",
+          "startSeconds": 500.37
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 88,
+          "tex": "X\\sim U(a,b),\\qquad f(x)=\\begin{cases}\\frac{1}{b-a},& a\\le x\\le b\\\\0,&\\text{otherwise}\\end{cases}",
+          "appearSeconds": 450.5
+        },
+        {
+          "sourceLine": 92,
+          "tex": "E[X]=\\frac{a+b}{2},\\quad \\operatorname{Var}(X)=\\frac{(b-a)^2}{12}",
+          "appearSeconds": 468.6
+        },
+        {
+          "sourceLine": 96,
+          "tex": "P(c<X<d)=\\frac{d-c}{b-a}=\\frac{10-5}{20-0}=0.25",
+          "appearSeconds": 483.07
+        }
+      ]
+    },
+    {
+      "id": "ch03-exponential",
+      "type": "ExponentialGoal",
+      "tag": "soccer",
+      "sourceLines": [
+        100,
+        112
+      ],
+      "description": "Countdown to the next goal under an idealised constant rate; decaying curve λe^{−λx}; mean 1/λ = 30 minutes.",
+      "startSeconds": 506.7,
+      "endSeconds": 584.47,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-07",
+          "startSeconds": 506.7
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-08",
+          "startSeconds": 508.73
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-09",
+          "startSeconds": 533.1
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-10",
+          "startSeconds": 550.13
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-11",
+          "startSeconds": 566.87
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 106,
+          "tex": "X\\sim\\operatorname{Exp}(\\lambda),\\quad f(x)=\\lambda e^{-\\lambda x},\\quad F(x)=1-e^{-\\lambda x},\\quad x\\ge0",
+          "appearSeconds": 533.47
+        },
+        {
+          "sourceLine": 110,
+          "tex": "E[X]=\\frac1\\lambda,\\qquad \\operatorname{Var}(X)=\\frac1{\\lambda^2},\\qquad P(X>x)=e^{-\\lambda x}",
+          "appearSeconds": 550.5
+        }
+      ]
+    },
+    {
+      "id": "ch03-prof-exponential",
+      "type": "CurveScene",
+      "tag": "professor",
+      "sourceLines": [
+        114,
+        114
+      ],
+      "description": "Professor's customer-arrival example kept intact: λ=5/hour, P(0.25<X<1)=e^{−1.25}−e^{−5}≈0.2798.",
+      "startSeconds": 584.47,
+      "endSeconds": 612.9,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-12",
+          "startSeconds": 584.47
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 116,
+          "tex": "P(0.25<X<1)=F(1)-F(0.25)=e^{-5(0.25)}-e^{-5(1)}\\approx0.2798",
+          "appearSeconds": 584.83
+        }
+      ]
+    },
+    {
+      "id": "ch03-normal",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        118,
+        126
+      ],
+      "description": "Bell curve with mean and SD; N(μ,σ²) uses variance; CLT motivation.",
+      "startSeconds": 612.9,
+      "endSeconds": 655.2,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-13",
+          "startSeconds": 612.9
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-14",
+          "startSeconds": 614.43
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-15",
+          "startSeconds": 624.73
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-16",
+          "startSeconds": 640.47
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 124,
+          "tex": "X\\sim N(\\mu,\\sigma^2),\\qquad \\sigma=\\sqrt{\\sigma^2}",
+          "appearSeconds": 625.1
+        }
+      ]
+    },
+    {
+      "id": "ch03-empirical",
+      "type": "CurveScene",
+      "tag": "soccer",
+      "sourceLines": [
+        128,
+        130
+      ],
+      "description": "Goalkeeper reaction times N(0.40, 0.04²): 68–95–99.7 bands.",
+      "startSeconds": 655.2,
+      "endSeconds": 701.9,
+      "steps": [
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-17",
+          "startSeconds": 655.2
+        },
+        {
+          "segmentId": "ch03-uniform-exponential-and-normal-18",
+          "startSeconds": 673.8
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch04-zscore",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        135,
+        141
+      ],
+      "description": "Point moving on the reaction-time bell; z = (x−μ)/σ; z=+2 and z=−1.3 markers.",
+      "startSeconds": 704.4,
+      "endSeconds": 733.23,
+      "steps": [
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-01",
+          "startSeconds": 704.4
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-02",
+          "startSeconds": 710.03
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-03",
+          "startSeconds": 721.07
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 139,
+          "tex": "z=\\frac{x-\\mu}{\\sigma}",
+          "appearSeconds": 710.4
+        }
+      ]
+    },
+    {
+      "id": "ch04-ztable",
+      "type": "ZTableScene",
+      "tag": "concept",
+      "sourceLines": [
+        143,
+        157
+      ],
+      "description": "Magnified z-table: row 1.2 / column .00 → 0.8849 (left area); complement 0.1151; negative half gives 0.1151 for z=−1.20.",
+      "startSeconds": 733.23,
+      "endSeconds": 787.6,
+      "steps": [
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-04",
+          "startSeconds": 733.23
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-05",
+          "startSeconds": 740.57
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-06",
+          "startSeconds": 745.67
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-07",
+          "startSeconds": 763.63
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-08",
+          "startSeconds": 774.6
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 149,
+          "tex": "P(Z\\le1.20)=0.8849",
+          "appearSeconds": 746.03
+        },
+        {
+          "sourceLine": 153,
+          "tex": "P(Z>1.20)=1-0.8849=0.1151",
+          "appearSeconds": 764
+        },
+        {
+          "sourceLine": 157,
+          "tex": "P(Z<-1.20)=0.1151",
+          "appearSeconds": 774.97
+        }
+      ]
+    },
+    {
+      "id": "ch04-between",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        159,
+        167
+      ],
+      "description": "Area between two z-scores; two-sided outside area = 2 × one tail; worked P(|Z|>2)=0.0456.",
+      "startSeconds": 787.6,
+      "endSeconds": 839.43,
+      "steps": [
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-09",
+          "startSeconds": 787.6
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-10",
+          "startSeconds": 794.3
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-11",
+          "startSeconds": 804
+        },
+        {
+          "segmentId": "ch04-z-scores-and-the-z-table-12",
+          "startSeconds": 823.23
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 165,
+          "tex": "P(|Z|>2)=2(1-0.9772)=0.0456",
+          "appearSeconds": 804.37
+        }
+      ]
+    },
+    {
+      "id": "ch05-clt",
+      "type": "CltSampling",
+      "tag": "soccer",
+      "sourceLines": [
+        172,
+        186
+      ],
+      "description": "Repeated random samples of 50 goalkeepers; each contributes one x̄; sampling distribution tightens with n (σ/√n).",
+      "startSeconds": 841.93,
+      "endSeconds": 918.63,
+      "steps": [
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-01",
+          "startSeconds": 841.93
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-02",
+          "startSeconds": 845.07
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-03",
+          "startSeconds": 864.7
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-04",
+          "startSeconds": 888.03
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-05",
+          "startSeconds": 892.73
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-06",
+          "startSeconds": 905.43
+        },
+        {
+          "segmentId": "ch05-the-central-limit-theorem-and-standard-e-07",
+          "startSeconds": 913.73
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 178,
+          "tex": "\\bar X\\approx N\\left(\\mu,\\frac{\\sigma^2}{n}\\right),\\quad SE(\\bar X)=\\frac{\\sigma}{\\sqrt n}",
+          "appearSeconds": 865.07
+        }
+      ]
+    },
+    {
+      "id": "ch06-structure",
+      "type": "CiStructure",
+      "tag": "concept",
+      "sourceLines": [
+        191,
+        201
+      ],
+      "description": "Center = point estimate; expanding margin of error; ME = critical × SE.",
+      "startSeconds": 921.13,
+      "endSeconds": 952.2,
+      "steps": [
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-01",
+          "startSeconds": 921.13
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-02",
+          "startSeconds": 927.57
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-03",
+          "startSeconds": 936
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-04",
+          "startSeconds": 947.97
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 195,
+          "tex": "\\text{Confidence interval}=\\text{point estimate}\\pm\\text{margin of error}",
+          "appearSeconds": 927.93
+        },
+        {
+          "sourceLine": 199,
+          "tex": "\\text{Margin of error}=\\text{critical value}\\times\\text{standard error}",
+          "appearSeconds": 936.37
+        }
+      ]
+    },
+    {
+      "id": "ch06-three-questions",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        203,
+        211
+      ],
+      "description": "Three questions for every CI problem.",
+      "startSeconds": 952.2,
+      "endSeconds": 972.4,
+      "steps": [
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-05",
+          "startSeconds": 952.2
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-06",
+          "startSeconds": 956.57
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-07",
+          "startSeconds": 959.37
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-08",
+          "startSeconds": 964.13
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-09",
+          "startSeconds": 968.67
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch06-parameters",
+      "type": "CardsScene",
+      "tag": "soccer",
+      "sourceLines": [
+        213,
+        223
+      ],
+      "description": "Five targets with soccer contexts: p (grass preference), p1−p2 (keepers vs outfielders), μ (reaction time), μ1−μ2 (training groups), paired.",
+      "startSeconds": 972.4,
+      "endSeconds": 1025.8,
+      "steps": [
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-10",
+          "startSeconds": 972.4
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-11",
+          "startSeconds": 981.8
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-12",
+          "startSeconds": 993
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-13",
+          "startSeconds": 1004.1
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-14",
+          "startSeconds": 1016.03
+        },
+        {
+          "segmentId": "ch06-confidence-intervals-what-are-they-actua-15",
+          "startSeconds": 1023.87
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch06-oneprop",
+      "type": "ProportionDots",
+      "tag": "soccer",
+      "sourceLines": [
+        228,
+        234
+      ],
+      "description": "Grid of sampled players coloured by grass preference; anatomy of p̂ ± z*√(p̂(1−p̂)/n).",
+      "startSeconds": 1027.8,
+      "endSeconds": 1057.97,
+      "steps": [
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-01",
+          "startSeconds": 1027.8
+        },
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-02",
+          "startSeconds": 1033.13
+        },
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-03",
+          "startSeconds": 1047.6
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 232,
+          "tex": "\\boxed{\\hat p\\pm z^*\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}}",
+          "appearSeconds": 1033.5
+        }
+      ]
+    },
+    {
+      "id": "ch06-zstar",
+      "type": "ZTableScene",
+      "tag": "concept",
+      "sourceLines": [
+        236,
+        238
+      ],
+      "description": "z* for 95%: middle 95%, 2.5% per tail, look up left area .9750 → 1.96.",
+      "startSeconds": 1057.97,
+      "endSeconds": 1093.73,
+      "steps": [
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-04",
+          "startSeconds": 1057.97
+        },
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-05",
+          "startSeconds": 1077.7
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch06-voter-ci",
+      "type": "CiLinesScene",
+      "tag": "professor",
+      "sourceLines": [
+        240,
+        240
+      ],
+      "description": "Professor's voter CI: p̂≈.514, 95% CI ≈ 50.42% to 52.38%.",
+      "startSeconds": 1093.73,
+      "endSeconds": 1115.3,
+      "steps": [
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-06",
+          "startSeconds": 1093.73
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch06-coverage",
+      "type": "CiCoverage",
+      "tag": "concept",
+      "sourceLines": [
+        242,
+        242
+      ],
+      "description": "Simulated repeated samples: about 95% of intervals capture the fixed true parameter; false interpretation crossed out.",
+      "startSeconds": 1115.3,
+      "endSeconds": 1136.8,
+      "steps": [
+        {
+          "segmentId": "ch06s-one-proportion-confidence-interval-07",
+          "startSeconds": 1115.3
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch06-twoprop",
+      "type": "TwoGroupBars",
+      "tag": "soccer",
+      "sourceLines": [
+        247,
+        261
+      ],
+      "description": "Goalkeepers vs outfield players preferring grass: difference of p̂'s, separate n's, SE; CIs vs zero.",
+      "startSeconds": 1138.8,
+      "endSeconds": 1189.1,
+      "steps": [
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-01",
+          "startSeconds": 1138.8
+        },
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-02",
+          "startSeconds": 1143.5
+        },
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-03",
+          "startSeconds": 1150.17
+        },
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-04",
+          "startSeconds": 1158.27
+        },
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-05",
+          "startSeconds": 1164.93
+        },
+        {
+          "segmentId": "ch06s-two-proportions-confidence-interval-06",
+          "startSeconds": 1173.9
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 253,
+          "tex": "SE(\\hat p_1-\\hat p_2)=\\sqrt{\\frac{\\hat p_1(1-\\hat p_1)}{n_1}+\\frac{\\hat p_2(1-\\hat p_2)}{n_2}}",
+          "appearSeconds": 1150.53
+        },
+        {
+          "sourceLine": 259,
+          "tex": "\\boxed{(\\hat p_1-\\hat p_2)\\pm z^*SE(\\hat p_1-\\hat p_2)}",
+          "appearSeconds": 1165.3
+        }
+      ]
+    },
+    {
+      "id": "ch06-onemean",
+      "type": "GroupsScene",
+      "tag": "soccer",
+      "sourceLines": [
+        266,
+        276
+      ],
+      "description": "Dot plot of sampled reaction times with x̄ and ±s; t*_{n−1} explained; SE = s/√n.",
+      "startSeconds": 1191.1,
+      "endSeconds": 1230.33,
+      "steps": [
+        {
+          "segmentId": "ch06s-one-mean-confidence-interval-01",
+          "startSeconds": 1191.1
+        },
+        {
+          "segmentId": "ch06s-one-mean-confidence-interval-02",
+          "startSeconds": 1200.13
+        },
+        {
+          "segmentId": "ch06s-one-mean-confidence-interval-03",
+          "startSeconds": 1213.6
+        },
+        {
+          "segmentId": "ch06s-one-mean-confidence-interval-04",
+          "startSeconds": 1222.17
+        },
+        {
+          "segmentId": "ch06s-one-mean-confidence-interval-05",
+          "startSeconds": 1227.77
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 270,
+          "tex": "\\boxed{\\bar x\\pm t^*_{n-1}\\frac{s}{\\sqrt n}}",
+          "appearSeconds": 1200.5
+        }
+      ]
+    },
+    {
+      "id": "ch07-t",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        281,
+        283
+      ],
+      "description": "t vs Normal: heavier tails at small df, converging at large df.",
+      "startSeconds": 1232.83,
+      "endSeconds": 1262.87,
+      "steps": [
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-01",
+          "startSeconds": 1232.83
+        },
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-02",
+          "startSeconds": 1248.97
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch07-tables",
+      "type": "TableCompare",
+      "tag": "exam",
+      "sourceLines": [
+        285,
+        287
+      ],
+      "description": "z-table = left cumulative area; t-table = critical value for a chosen upper-tail area and df.",
+      "startSeconds": 1262.87,
+      "endSeconds": 1286.63,
+      "steps": [
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-03",
+          "startSeconds": 1262.87
+        },
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-04",
+          "startSeconds": 1276.53
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch07-ttable",
+      "type": "TTableScene",
+      "tag": "exam",
+      "sourceLines": [
+        289,
+        291
+      ],
+      "description": "95% two-sided → .025 column; 90% → .05 column; row df = n − 1 (illustrated with df = 35).",
+      "startSeconds": 1286.63,
+      "endSeconds": 1310.97,
+      "steps": [
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-05",
+          "startSeconds": 1286.63
+        },
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-06",
+          "startSeconds": 1302.97
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch07-onesided",
+      "type": "CiLinesScene",
+      "tag": "concept",
+      "sourceLines": [
+        293,
+        297
+      ],
+      "description": "One-sided bounds: lower bound to +∞ (α=.10 in the lower tail), upper bound from −∞.",
+      "startSeconds": 1310.97,
+      "endSeconds": 1351.6,
+      "steps": [
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-07",
+          "startSeconds": 1310.97
+        },
+        {
+          "segmentId": "ch07-what-is-the-t-distribution-and-how-do-i-08",
+          "startSeconds": 1335.5
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 295,
+          "tex": "\\text{one-sided lower bound}=\\hat\\theta-c^*SE,\\quad \\text{upper bound}=\\hat\\theta+c^*SE",
+          "appearSeconds": 1311.33
+        }
+      ]
+    },
+    {
+      "id": "ch07-twomeans",
+      "type": "GroupsScene",
+      "tag": "soccer",
+      "sourceLines": [
+        302,
+        316
+      ],
+      "description": "Two independent training groups; difference of means; SE from s²/n of each group; Welch df; zero reference.",
+      "startSeconds": 1353.6,
+      "endSeconds": 1407,
+      "steps": [
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-01",
+          "startSeconds": 1353.6
+        },
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-02",
+          "startSeconds": 1358.37
+        },
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-03",
+          "startSeconds": 1363.63
+        },
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-04",
+          "startSeconds": 1372.17
+        },
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-05",
+          "startSeconds": 1384.17
+        },
+        {
+          "segmentId": "ch07s-two-independent-means-confidence-interva-06",
+          "startSeconds": 1397.03
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 308,
+          "tex": "SE(\\bar x_1-\\bar x_2)=\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}",
+          "appearSeconds": 1364
+        },
+        {
+          "sourceLine": 312,
+          "tex": "\\nu\\approx\\frac{(s_1^2/n_1+s_2^2/n_2)^2}{\\frac{(s_1^2/n_1)^2}{n_1-1}+\\frac{(s_2^2/n_2)^2}{n_2-1}}",
+          "appearSeconds": 1372.53
+        }
+      ]
+    },
+    {
+      "id": "ch07-paired",
+      "type": "PairedScene",
+      "tag": "soccer",
+      "sourceLines": [
+        321,
+        329
+      ],
+      "description": "Same goalkeepers before/after a reflex drill; per-player differences d; one-sample interval on d̄.",
+      "startSeconds": 1409,
+      "endSeconds": 1459.5,
+      "steps": [
+        {
+          "segmentId": "ch07s-paired-difference-confidence-interval-01",
+          "startSeconds": 1409
+        },
+        {
+          "segmentId": "ch07s-paired-difference-confidence-interval-02",
+          "startSeconds": 1430.5
+        },
+        {
+          "segmentId": "ch07s-paired-difference-confidence-interval-03",
+          "startSeconds": 1438.3
+        },
+        {
+          "segmentId": "ch07s-paired-difference-confidence-interval-04",
+          "startSeconds": 1454.43
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 327,
+          "tex": "\\boxed{\\bar d\\pm t^*_{n-1}\\frac{s_d}{\\sqrt n}}",
+          "appearSeconds": 1438.67
+        }
+      ]
+    },
+    {
+      "id": "ch08-samplesize",
+      "type": "SampleSizeScene",
+      "tag": "exam",
+      "sourceLines": [
+        334,
+        352
+      ],
+      "description": "n vs E curve (n ∝ 1/E²), p̂(1−p̂) maximised at 0.5, round up, worked n = 9604.",
+      "startSeconds": 1462,
+      "endSeconds": 1541.33,
+      "steps": [
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-01",
+          "startSeconds": 1462
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-02",
+          "startSeconds": 1471.13
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-03",
+          "startSeconds": 1480.37
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-04",
+          "startSeconds": 1481.9
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-05",
+          "startSeconds": 1492.07
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-06",
+          "startSeconds": 1512.47
+        },
+        {
+          "segmentId": "ch08-confidence-interval-sample-size-for-a-pr-07",
+          "startSeconds": 1520.27
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 338,
+          "tex": "E=z^*\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}",
+          "appearSeconds": 1471.5
+        },
+        {
+          "sourceLine": 344,
+          "tex": "\\boxed{n=\\left\\lceil\\frac{(z^*)^2\\hat p(1-\\hat p)}{E^2}\\right\\rceil}",
+          "appearSeconds": 1482.27
+        },
+        {
+          "sourceLine": 352,
+          "tex": "n=\\left\\lceil\\frac{1.96^2(0.5)(0.5)}{0.01^2}\\right\\rceil=9604",
+          "appearSeconds": 1520.63
+        }
+      ]
+    },
+    {
+      "id": "ch09-ci-vs-test",
+      "type": "CardsScene",
+      "tag": "concept",
+      "sourceLines": [
+        357,
+        359
+      ],
+      "description": "CI question vs test question.",
+      "startSeconds": 1543.83,
+      "endSeconds": 1554.63,
+      "steps": [
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-01",
+          "startSeconds": 1543.83
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-02",
+          "startSeconds": 1548.23
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch09-hypotheses",
+      "type": "CardsScene",
+      "tag": "concept",
+      "sourceLines": [
+        361,
+        367
+      ],
+      "description": "H0 (default, equality) and Ha (<, >, ≠); alternative chosen before seeing data.",
+      "startSeconds": 1554.63,
+      "endSeconds": 1584.17,
+      "steps": [
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-03",
+          "startSeconds": 1554.63
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-04",
+          "startSeconds": 1558.1
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-05",
+          "startSeconds": 1566.07
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-06",
+          "startSeconds": 1574.17
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch09-workflow",
+      "type": "StepsScene",
+      "tag": "exam",
+      "sourceLines": [
+        369,
+        381
+      ],
+      "description": "Six-step hypothesis test workflow, each lit as narrated.",
+      "startSeconds": 1584.17,
+      "endSeconds": 1601.2,
+      "steps": [
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-07",
+          "startSeconds": 1584.17
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-08",
+          "startSeconds": 1585.8
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-09",
+          "startSeconds": 1588.1
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-10",
+          "startSeconds": 1589.8
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-11",
+          "startSeconds": 1592.23
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-12",
+          "startSeconds": 1596.47
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-13",
+          "startSeconds": 1598.73
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch09-pvalue",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        383,
+        397
+      ],
+      "description": "Null distribution; observed statistic; tail area = p-value; small vs large p; decision rule.",
+      "startSeconds": 1601.2,
+      "endSeconds": 1654.6,
+      "steps": [
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-14",
+          "startSeconds": 1601.2
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-15",
+          "startSeconds": 1606.13
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-16",
+          "startSeconds": 1610.3
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-17",
+          "startSeconds": 1622.07
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-18",
+          "startSeconds": 1623.9
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-19",
+          "startSeconds": 1631.67
+        },
+        {
+          "segmentId": "ch09-hypothesis-testing-the-big-idea-20",
+          "startSeconds": 1639.17
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 397,
+          "tex": "p\\text{-value}\\le\\alpha\\Rightarrow\\text{reject }H_0;\\qquad p\\text{-value}>\\alpha\\Rightarrow\\text{fail to reject }H_0",
+          "appearSeconds": 1639.53
+        }
+      ]
+    },
+    {
+      "id": "ch10-tails",
+      "type": "CurveScene",
+      "tag": "exam",
+      "sourceLines": [
+        402,
+        422
+      ],
+      "description": "Left, right and two-tailed shading from Ha; z-table reading rules for each.",
+      "startSeconds": 1657.1,
+      "endSeconds": 1699.2,
+      "steps": [
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-01",
+          "startSeconds": 1657.1
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-02",
+          "startSeconds": 1661.33
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-03",
+          "startSeconds": 1669.93
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-04",
+          "startSeconds": 1676.9
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-05",
+          "startSeconds": 1682.77
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-06",
+          "startSeconds": 1686.73
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-07",
+          "startSeconds": 1690.2
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-08",
+          "startSeconds": 1693.87
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 406,
+          "tex": "H_a:\\theta<\\theta_0\\Rightarrow\\text{left-tail p-value}",
+          "appearSeconds": 1661.7
+        },
+        {
+          "sourceLine": 410,
+          "tex": "H_a:\\theta>\\theta_0\\Rightarrow\\text{right-tail p-value}",
+          "appearSeconds": 1670.3
+        },
+        {
+          "sourceLine": 414,
+          "tex": "H_a:\\theta\\ne\\theta_0\\Rightarrow\\text{two-tail p-value}",
+          "appearSeconds": 1677.27
+        }
+      ]
+    },
+    {
+      "id": "ch10-voter-test",
+      "type": "CurveScene",
+      "tag": "professor",
+      "sourceLines": [
+        424,
+        438
+      ],
+      "description": "Professor's voter test: p0=0.52, n=10000, p̂=0.514, z≈−1.20, left-tail p=0.1151 > .05 → fail to reject.",
+      "startSeconds": 1699.2,
+      "endSeconds": 1781.63,
+      "steps": [
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-09",
+          "startSeconds": 1699.2
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-10",
+          "startSeconds": 1716.47
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-11",
+          "startSeconds": 1719.53
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-12",
+          "startSeconds": 1732.23
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-13",
+          "startSeconds": 1745
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-14",
+          "startSeconds": 1756.63
+        },
+        {
+          "segmentId": "ch10-tails-how-h-a-tells-you-the-p-value-area-15",
+          "startSeconds": 1760.07
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 430,
+          "tex": "\\boxed{z=\\frac{\\hat p-p_0}{\\sqrt{p_0(1-p_0)/n}}}",
+          "appearSeconds": 1719.9
+        },
+        {
+          "sourceLine": 440,
+          "tex": "z=\\frac{0.514-0.52}{\\sqrt{0.52(0.48)/10000}}\\approx-1.20,\\quad p=0.1151",
+          "appearSeconds": 1760.43
+        }
+      ]
+    },
+    {
+      "id": "ch11-oneprop-test",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        445,
+        456
+      ],
+      "description": "Start with the parameter; one-proportion z-test uses p0; z-table.",
+      "startSeconds": 1784.13,
+      "endSeconds": 1803.77,
+      "steps": [
+        {
+          "segmentId": "ch11-which-hypothesis-test-formula-do-i-use-01",
+          "startSeconds": 1784.13
+        },
+        {
+          "segmentId": "ch11s-one-proportion-test-01",
+          "startSeconds": 1789.3
+        },
+        {
+          "segmentId": "ch11s-one-proportion-test-02",
+          "startSeconds": 1792.03
+        },
+        {
+          "segmentId": "ch11s-one-proportion-test-03",
+          "startSeconds": 1802.1
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 454,
+          "tex": "z=\\frac{\\hat p-p_0}{\\sqrt{p_0(1-p_0)/n}}",
+          "appearSeconds": 1792.4
+        }
+      ]
+    },
+    {
+      "id": "ch11-cats",
+      "type": "ProfCats",
+      "tag": "professor",
+      "sourceLines": [
+        461,
+        473
+      ],
+      "description": "Professor's cats example: 13/45 vs 16/74, lecture z≈0.878 (unpooled), one-sided p≈0.1894 > 0.10.",
+      "startSeconds": 1805.77,
+      "endSeconds": 1880.7,
+      "steps": [
+        {
+          "segmentId": "ch11s-two-proportions-test-01",
+          "startSeconds": 1805.77
+        },
+        {
+          "segmentId": "ch11s-two-proportions-test-02",
+          "startSeconds": 1809.8
+        },
+        {
+          "segmentId": "ch11s-two-proportions-test-03",
+          "startSeconds": 1825.27
+        },
+        {
+          "segmentId": "ch11s-two-proportions-test-04",
+          "startSeconds": 1832.6
+        },
+        {
+          "segmentId": "ch11s-two-proportions-test-05",
+          "startSeconds": 1859.33
+        },
+        {
+          "segmentId": "ch11s-two-proportions-test-06",
+          "startSeconds": 1873.37
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 469,
+          "tex": "z_{\\mathrm{lecture}}\\approx0.878,\\quad p_{\\mathrm{right}}\\approx0.1894>\\alpha=0.10",
+          "appearSeconds": 1832.97
+        }
+      ]
+    },
+    {
+      "id": "ch11-onemean-test",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        478,
+        488
+      ],
+      "description": "One-sample t: distance of x̄ from μ0 in estimated SEs; df = n − 1.",
+      "startSeconds": 1882.7,
+      "endSeconds": 1912.87,
+      "steps": [
+        {
+          "segmentId": "ch11s-one-mean-test-01",
+          "startSeconds": 1882.7
+        },
+        {
+          "segmentId": "ch11s-one-mean-test-02",
+          "startSeconds": 1885.33
+        },
+        {
+          "segmentId": "ch11s-one-mean-test-03",
+          "startSeconds": 1887.03
+        },
+        {
+          "segmentId": "ch11s-one-mean-test-04",
+          "startSeconds": 1901.4
+        },
+        {
+          "segmentId": "ch11s-one-mean-test-05",
+          "startSeconds": 1909.23
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 484,
+          "tex": "\\boxed{t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n}},\\quad df=n-1",
+          "appearSeconds": 1887.4
+        }
+      ]
+    },
+    {
+      "id": "ch11-gpa",
+      "type": "CurveScene",
+      "tag": "professor",
+      "sourceLines": [
+        490,
+        494
+      ],
+      "description": "Professor's GPA example: μ0=4.1, n=114, x̄=4.2317, s=0.3664, t≈3.84, two-sided p<.001, reject at α=.02.",
+      "startSeconds": 1912.87,
+      "endSeconds": 1952.23,
+      "steps": [
+        {
+          "segmentId": "ch11s-one-mean-test-06",
+          "startSeconds": 1912.87
+        },
+        {
+          "segmentId": "ch11s-one-mean-test-07",
+          "startSeconds": 1929.6
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 492,
+          "tex": "t=\\frac{4.2317-4.1}{0.3664/\\sqrt{114}}\\approx3.84",
+          "appearSeconds": 1913.23
+        }
+      ]
+    },
+    {
+      "id": "ch11-twomeans-test",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        499,
+        509
+      ],
+      "description": "Two independent group distributions; observed difference minus Δ0 over combined SE; Welch t.",
+      "startSeconds": 1954.23,
+      "endSeconds": 1987.27,
+      "steps": [
+        {
+          "segmentId": "ch11s-two-independent-means-test-01",
+          "startSeconds": 1954.23
+        },
+        {
+          "segmentId": "ch11s-two-independent-means-test-02",
+          "startSeconds": 1958.13
+        },
+        {
+          "segmentId": "ch11s-two-independent-means-test-03",
+          "startSeconds": 1959.83
+        },
+        {
+          "segmentId": "ch11s-two-independent-means-test-04",
+          "startSeconds": 1973.97
+        },
+        {
+          "segmentId": "ch11s-two-independent-means-test-05",
+          "startSeconds": 1983.73
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 505,
+          "tex": "\\boxed{t=\\frac{(\\bar x_1-\\bar x_2)-\\Delta_0}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}}",
+          "appearSeconds": 1960.2
+        }
+      ]
+    },
+    {
+      "id": "ch11-firstgen",
+      "type": "CurveScene",
+      "tag": "professor",
+      "sourceLines": [
+        511,
+        511
+      ],
+      "description": "Professor's first-generation comparison: t≈−1.083, df≈22.38, one-sided p≈0.145 > α=.03 → fail to reject.",
+      "startSeconds": 1987.27,
+      "endSeconds": 2014.3,
+      "steps": [
+        {
+          "segmentId": "ch11s-two-independent-means-test-06",
+          "startSeconds": 1987.27
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 513,
+          "tex": "t\\approx-1.083,\\quad df\\approx22.38,\\quad p\\approx0.145",
+          "appearSeconds": 1987.63
+        }
+      ]
+    },
+    {
+      "id": "ch11-paired-test",
+      "type": "PairedScene",
+      "tag": "soccer",
+      "sourceLines": [
+        518,
+        526
+      ],
+      "description": "Paired test: differences first, then a one-sample t on d̄ with d0 commonly 0.",
+      "startSeconds": 2016.3,
+      "endSeconds": 2048.03,
+      "steps": [
+        {
+          "segmentId": "ch11s-paired-mean-test-01",
+          "startSeconds": 2016.3
+        },
+        {
+          "segmentId": "ch11s-paired-mean-test-02",
+          "startSeconds": 2025.13
+        },
+        {
+          "segmentId": "ch11s-paired-mean-test-03",
+          "startSeconds": 2036.1
+        },
+        {
+          "segmentId": "ch11s-paired-mean-test-04",
+          "startSeconds": 2045.9
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 522,
+          "tex": "\\boxed{t=\\frac{\\bar d-d_0}{s_d/\\sqrt n}},\\quad df=n-1",
+          "appearSeconds": 2025.5
+        }
+      ]
+    },
+    {
+      "id": "ch12-checklist",
+      "type": "ConditionsChecklist",
+      "tag": "exam",
+      "sourceLines": [
+        531,
+        567
+      ],
+      "description": "Four-column condition checklist filled as narrated.",
+      "startSeconds": 2050.53,
+      "endSeconds": 2091,
+      "steps": [
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-01",
+          "startSeconds": 2050.53
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-02",
+          "startSeconds": 2054.17
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-03",
+          "startSeconds": 2055.93
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-04",
+          "startSeconds": 2057.63
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-05",
+          "startSeconds": 2059.53
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-06",
+          "startSeconds": 2061.67
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-07",
+          "startSeconds": 2063.43
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-08",
+          "startSeconds": 2065.87
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-09",
+          "startSeconds": 2068.07
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-10",
+          "startSeconds": 2070.13
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-11",
+          "startSeconds": 2072.07
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-12",
+          "startSeconds": 2073.53
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-13",
+          "startSeconds": 2075.23
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-14",
+          "startSeconds": 2077.13
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-15",
+          "startSeconds": 2080.17
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-16",
+          "startSeconds": 2082.33
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-17",
+          "startSeconds": 2084.3
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-18",
+          "startSeconds": 2086.13
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-19",
+          "startSeconds": 2089.07
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch12-detail",
+      "type": "ConditionsDetail",
+      "tag": "concept",
+      "sourceLines": [
+        569,
+        577
+      ],
+      "description": "Random sample, 10% sampling fraction, success–failure (p̂ for CI, p0 for test), skew and sample size.",
+      "startSeconds": 2091,
+      "endSeconds": 2144.5,
+      "steps": [
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-20",
+          "startSeconds": 2091
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-21",
+          "startSeconds": 2097.07
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-22",
+          "startSeconds": 2108.53
+        },
+        {
+          "segmentId": "ch12-conditions-when-are-the-formulas-legal-23",
+          "startSeconds": 2127.87
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 575,
+          "tex": "\\text{CI: }n\\hat p\\ge10,\\ n(1-\\hat p)\\ge10;\\qquad \\text{test: }np_0\\ge10,\\ n(1-p_0)\\ge10",
+          "appearSeconds": 2108.9
+        }
+      ]
+    },
+    {
+      "id": "ch13-errors",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        582,
+        590
+      ],
+      "description": "H0 and Ha distributions; α, β and power shaded.",
+      "startSeconds": 2147,
+      "endSeconds": 2174.63,
+      "steps": [
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-01",
+          "startSeconds": 2147
+        },
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-02",
+          "startSeconds": 2153.07
+        },
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-03",
+          "startSeconds": 2159.17
+        },
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-04",
+          "startSeconds": 2166.13
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 590,
+          "tex": "\\text{Power}=1-\\beta",
+          "appearSeconds": 2166.5
+        }
+      ]
+    },
+    {
+      "id": "ch13-matrix",
+      "type": "ErrorMatrix",
+      "tag": "soccer",
+      "sourceLines": [
+        592,
+        592
+      ],
+      "description": "Goalkeeper training program with H0 = no improvement: false alarm vs missed real gain.",
+      "startSeconds": 2174.63,
+      "endSeconds": 2192.37,
+      "steps": [
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-05",
+          "startSeconds": 2174.63
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch13-power",
+      "type": "CurveScene",
+      "tag": "concept",
+      "sourceLines": [
+        594,
+        596
+      ],
+      "description": "Power grows with sample size and effect size.",
+      "startSeconds": 2192.37,
+      "endSeconds": 2209.67,
+      "steps": [
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-06",
+          "startSeconds": 2192.37
+        },
+        {
+          "segmentId": "ch13-type-i-error-type-ii-error-alpha-beta-an-07",
+          "startSeconds": 2201.8
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch14-duality",
+      "type": "CiLinesScene",
+      "tag": "concept",
+      "sourceLines": [
+        601,
+        611
+      ],
+      "description": "Null value outside the CI → reject; inside → fail to reject; zero for differences; cross-check.",
+      "startSeconds": 2212.17,
+      "endSeconds": 2257.9,
+      "steps": [
+        {
+          "segmentId": "ch14-confidence-intervals-and-hypothesis-test-01",
+          "startSeconds": 2212.17
+        },
+        {
+          "segmentId": "ch14-confidence-intervals-and-hypothesis-test-02",
+          "startSeconds": 2223.27
+        },
+        {
+          "segmentId": "ch14-confidence-intervals-and-hypothesis-test-03",
+          "startSeconds": 2230.07
+        },
+        {
+          "segmentId": "ch14-confidence-intervals-and-hypothesis-test-04",
+          "startSeconds": 2234.6
+        },
+        {
+          "segmentId": "ch14-confidence-intervals-and-hypothesis-test-05",
+          "startSeconds": 2247.37
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 603,
+          "tex": "\\text{Two-sided 95\\% CI}\\ \\longleftrightarrow\\ \\text{two-sided test at }\\alpha=0.05",
+          "appearSeconds": 2212.53
+        }
+      ]
+    },
+    {
+      "id": "ch15-tree-1",
+      "type": "FlowScene",
+      "tag": "exam",
+      "sourceLines": [
+        616,
+        644
+      ],
+      "description": "Exam-day decision tree, steps 1–3: question type → parameter → z or t.",
+      "startSeconds": 2260.4,
+      "endSeconds": 2316.13,
+      "steps": [
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-01",
+          "startSeconds": 2260.4
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-02",
+          "startSeconds": 2266.97
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-03",
+          "startSeconds": 2270.13
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-04",
+          "startSeconds": 2275
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-05",
+          "startSeconds": 2280.67
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-06",
+          "startSeconds": 2286.1
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-07",
+          "startSeconds": 2288.27
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-08",
+          "startSeconds": 2290.47
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-09",
+          "startSeconds": 2294.1
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-10",
+          "startSeconds": 2296.07
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-11",
+          "startSeconds": 2299.93
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-12",
+          "startSeconds": 2303.63
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-13",
+          "startSeconds": 2305.8
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-14",
+          "startSeconds": 2307.8
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-15",
+          "startSeconds": 2309.53
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch15-ci-gallery",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        646,
+        668
+      ],
+      "description": "All five CI formulas in one pattern: estimate ± critical × SE.",
+      "startSeconds": 2316.13,
+      "endSeconds": 2350.17,
+      "steps": [
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-16",
+          "startSeconds": 2316.13
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-17",
+          "startSeconds": 2326.3
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-18",
+          "startSeconds": 2330.93
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-19",
+          "startSeconds": 2336.37
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-20",
+          "startSeconds": 2340.4
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-21",
+          "startSeconds": 2345.33
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 648,
+          "tex": "\\mathrm{CI}=\\mathrm{PE}\\pm c^*\\times SE",
+          "appearSeconds": 2316.5
+        },
+        {
+          "sourceLine": 652,
+          "tex": "\\hat p\\pm z^*\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}",
+          "appearSeconds": 2326.67
+        },
+        {
+          "sourceLine": 656,
+          "tex": "(\\hat p_1-\\hat p_2)\\pm z^*\\sqrt{\\frac{\\hat p_1(1-\\hat p_1)}{n_1}+\\frac{\\hat p_2(1-\\hat p_2)}{n_2}}",
+          "appearSeconds": 2331.3
+        },
+        {
+          "sourceLine": 660,
+          "tex": "\\bar x\\pm t^*_{n-1}\\frac{s}{\\sqrt n}",
+          "appearSeconds": 2336.73
+        },
+        {
+          "sourceLine": 664,
+          "tex": "(\\bar x_1-\\bar x_2)\\pm t^*_{\\nu}\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}",
+          "appearSeconds": 2340.77
+        },
+        {
+          "sourceLine": 668,
+          "tex": "\\bar d\\pm t^*_{n-1}\\frac{s_d}{\\sqrt n}",
+          "appearSeconds": 2345.7
+        }
+      ]
+    },
+    {
+      "id": "ch15-tree-2",
+      "type": "FlowScene",
+      "tag": "exam",
+      "sourceLines": [
+        670,
+        696
+      ],
+      "description": "Decision tree, steps 5–10: hypotheses → tail → conditions → statistic → table → p vs α → conclusion.",
+      "startSeconds": 2350.17,
+      "endSeconds": 2399.4,
+      "steps": [
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-22",
+          "startSeconds": 2350.17
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-23",
+          "startSeconds": 2356.5
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-24",
+          "startSeconds": 2358.97
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-25",
+          "startSeconds": 2360.63
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-26",
+          "startSeconds": 2362.37
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-27",
+          "startSeconds": 2364.17
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-28",
+          "startSeconds": 2366.57
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-29",
+          "startSeconds": 2369.7
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-30",
+          "startSeconds": 2372.27
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-31",
+          "startSeconds": 2374.77
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-32",
+          "startSeconds": 2379.33
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-33",
+          "startSeconds": 2382.43
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-34",
+          "startSeconds": 2385.43
+        },
+        {
+          "segmentId": "ch15-your-exam-day-decision-tree-35",
+          "startSeconds": 2388.97
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch16-cues",
+      "type": "CueList",
+      "tag": "exam",
+      "sourceLines": [
+        701,
+        731
+      ],
+      "description": "Wording cue → method list.",
+      "startSeconds": 2401.9,
+      "endSeconds": 2485.27,
+      "steps": [
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-01",
+          "startSeconds": 2401.9
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-02",
+          "startSeconds": 2403.97
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-03",
+          "startSeconds": 2413.9
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-04",
+          "startSeconds": 2417.63
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-05",
+          "startSeconds": 2421.13
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-06",
+          "startSeconds": 2424.1
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-07",
+          "startSeconds": 2428.67
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-08",
+          "startSeconds": 2435.2
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-09",
+          "startSeconds": 2438.93
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-10",
+          "startSeconds": 2444.93
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-11",
+          "startSeconds": 2448.6
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-12",
+          "startSeconds": 2454.57
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-13",
+          "startSeconds": 2459.4
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-14",
+          "startSeconds": 2463.2
+        },
+        {
+          "segmentId": "ch16-wording-cues-that-should-trigger-a-metho-15",
+          "startSeconds": 2468.67
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 731,
+          "tex": "n=\\left\\lceil(z^*)^2\\frac{\\hat p(1-\\hat p)}{E^2}\\right\\rceil",
+          "appearSeconds": 2469.03
+        }
+      ]
+    },
+    {
+      "id": "ch17-traps",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        736,
+        758
+      ],
+      "description": "Twelve common traps as cards, highlighted one at a time.",
+      "startSeconds": 2487.77,
+      "endSeconds": 2576.93,
+      "steps": [
+        {
+          "segmentId": "ch17-common-traps-01",
+          "startSeconds": 2487.77
+        },
+        {
+          "segmentId": "ch17-common-traps-02",
+          "startSeconds": 2496.47
+        },
+        {
+          "segmentId": "ch17-common-traps-03",
+          "startSeconds": 2506.1
+        },
+        {
+          "segmentId": "ch17-common-traps-04",
+          "startSeconds": 2512.87
+        },
+        {
+          "segmentId": "ch17-common-traps-05",
+          "startSeconds": 2517.57
+        },
+        {
+          "segmentId": "ch17-common-traps-06",
+          "startSeconds": 2528.77
+        },
+        {
+          "segmentId": "ch17-common-traps-07",
+          "startSeconds": 2539.2
+        },
+        {
+          "segmentId": "ch17-common-traps-08",
+          "startSeconds": 2545.3
+        },
+        {
+          "segmentId": "ch17-common-traps-09",
+          "startSeconds": 2549.13
+        },
+        {
+          "segmentId": "ch17-common-traps-10",
+          "startSeconds": 2557.77
+        },
+        {
+          "segmentId": "ch17-common-traps-11",
+          "startSeconds": 2563.67
+        },
+        {
+          "segmentId": "ch17-common-traps-12",
+          "startSeconds": 2570.73
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "ch18-final-ttest",
+      "type": "FinalTTest",
+      "tag": "soccer",
+      "sourceLines": [
+        763,
+        787
+      ],
+      "description": "Full soccer t-test: n=36, x̄=.424, μ0=.400, s=.060 → t=2.40, df=35, right tail, .01<p<.025, reject.",
+      "startSeconds": 2579.43,
+      "endSeconds": 2745.43,
+      "steps": [
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-01",
+          "startSeconds": 2579.43
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-02",
+          "startSeconds": 2609.2
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-03",
+          "startSeconds": 2617.4
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-04",
+          "startSeconds": 2622.37
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-05",
+          "startSeconds": 2636.67
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-06",
+          "startSeconds": 2658.13
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-07",
+          "startSeconds": 2666.9
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-08",
+          "startSeconds": 2685.87
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-09",
+          "startSeconds": 2690.43
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-10",
+          "startSeconds": 2714.23
+        },
+        {
+          "segmentId": "ch18-final-walk-through-one-complete-exam-sty-11",
+          "startSeconds": 2731.77
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 775,
+          "tex": "t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n}",
+          "appearSeconds": 2658.5
+        },
+        {
+          "sourceLine": 779,
+          "tex": "t=\\frac{0.424-0.400}{0.060/\\sqrt{36}}=\\frac{0.024}{0.010}=2.40",
+          "appearSeconds": 2667.27
+        }
+      ]
+    },
+    {
+      "id": "ch19-final-ci",
+      "type": "ProportionDots",
+      "tag": "soccer",
+      "sourceLines": [
+        792,
+        814
+      ],
+      "description": "62 of 100 players prefer morning training: p̂=.62, SE≈.04854, E≈.0951, 95% CI ≈ (.5249, .7151); contrast with H0 p=.50.",
+      "startSeconds": 2747.93,
+      "endSeconds": 2864.63,
+      "steps": [
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-01",
+          "startSeconds": 2747.93
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-02",
+          "startSeconds": 2762.8
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-03",
+          "startSeconds": 2772.1
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-04",
+          "startSeconds": 2777.63
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-05",
+          "startSeconds": 2788.77
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-06",
+          "startSeconds": 2810.73
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-07",
+          "startSeconds": 2827.07
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-08",
+          "startSeconds": 2835.77
+        },
+        {
+          "segmentId": "ch19-final-walk-through-confidence-interval-s-09",
+          "startSeconds": 2857.63
+        }
+      ],
+      "math": [
+        {
+          "sourceLine": 800,
+          "tex": "SE=\\sqrt{\\frac{(0.62)(0.38)}{100}}\\approx0.04854,\\quad E=1.96SE\\approx0.0951",
+          "appearSeconds": 2778
+        },
+        {
+          "sourceLine": 804,
+          "tex": "0.62\\pm0.0951=(0.5249,\\ 0.7151)",
+          "appearSeconds": 2789.13
+        },
+        {
+          "sourceLine": 812,
+          "tex": "H_0:p=0.50,\\quad H_a:p>0.50,\\quad SE_{H_0}=\\sqrt{\\frac{0.5(0.5)}{100}}",
+          "appearSeconds": 2836.13
+        }
+      ]
+    },
+    {
+      "id": "ch20-recap",
+      "type": "CardsScene",
+      "tag": "exam",
+      "sourceLines": [
+        819,
+        843
+      ],
+      "description": "Ten recognition cues replayed as tiles.",
+      "startSeconds": 2867.13,
+      "endSeconds": 2945.27,
+      "steps": [
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-01",
+          "startSeconds": 2867.13
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-02",
+          "startSeconds": 2870.67
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-03",
+          "startSeconds": 2877.07
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-04",
+          "startSeconds": 2884.87
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-05",
+          "startSeconds": 2889
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-06",
+          "startSeconds": 2892.13
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-07",
+          "startSeconds": 2899.13
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-08",
+          "startSeconds": 2902.37
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-09",
+          "startSeconds": 2907.7
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-10",
+          "startSeconds": 2914.4
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-11",
+          "startSeconds": 2920.23
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-12",
+          "startSeconds": 2924.77
+        },
+        {
+          "segmentId": "ch20-last-five-minutes-what-to-remember-if-ev-13",
+          "startSeconds": 2941.3
+        }
+      ],
+      "math": []
+    },
+    {
+      "id": "outro",
+      "type": "OutroScene",
+      "tag": "soccer",
+      "sourceLines": [
+        848,
+        854
+      ],
+      "description": "Replay passes and the five self-check questions.",
+      "startSeconds": 2947.77,
+      "endSeconds": 2987.17,
+      "steps": [
+        {
+          "segmentId": "outro-how-to-replay-this-episode-01",
+          "startSeconds": 2947.77
+        },
+        {
+          "segmentId": "outro-how-to-replay-this-episode-02",
+          "startSeconds": 2964.17
+        },
+        {
+          "segmentId": "outro-how-to-replay-this-episode-03",
+          "startSeconds": 2977.93
+        },
+        {
+          "segmentId": "outro-how-to-replay-this-episode-04",
+          "startSeconds": 2985.4
+        }
+      ],
+      "math": []
+    }
+  ]
+}

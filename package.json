@@ -1,0 +1,39 @@
+{
+  "name": "stat251-exam2-soccer-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "STAT 251 Exam 2 soccer-edition educational explainer video (Remotion + KaTeX)",
+  "type": "module",
+  "scripts": {
+    "manifest": "tsx tools/parse-script.ts",
+    "narrate": "tools/run-tts.sh",
+    "timeline": "tsx tools/build-timeline.ts",
+    "build:data": "npm run manifest && npm run narrate && npm run timeline",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "stills": "tsx tools/render-stills.ts",
+    "render:preview": "tsx tools/render.ts preview",
+    "render:full": "tsx tools/render.ts full",
+    "render:mobile": "tools/make-mobile.sh",
+    "qa": "tsx tools/qa.ts"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.1.1",
+    "@fontsource/jetbrains-mono": "^5.1.1",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "katex": "0.16.11",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

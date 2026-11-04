@@ -1,0 +1,10 @@
+node_modules/
+out/*.mp4
+out/stills/
+out/chunks/
+public/audio/narration.wav
+public/audio/sentences/
+.env
+*.log
+.remotion/
+tools/.cache/
