@@ -222,6 +222,8 @@ ${silExplained
 * Header chapter titles and the title-card chapter menu wrap onto two lines instead of using an ellipsis (an earlier draft truncated long titles; this was fixed before the final render).
 * No caption is longer than ~2 lines at 40 px (max ${Math.max(...capLens)} characters on a 1640 px box).
 * Formula panel: at most 3 formulas visible, each scaled to fit 700 × ≤260 px.
+* Pixel format: the full and preview renders are tagged \`yuvj420p\` (full-range 4:2:0 from Remotion's JPEG frames). It plays correctly in browsers, VLC, QuickTime and YouTube. The mobile file is standard limited-range \`yuv420p\`.
+* After AAC encoding the true peak measures about −1.1 dBFS (the PCM narration was normalised to −1.5 dBTP). There is no clipping.
 * Known cosmetic limitations: a few curve labels touch the curve line in dense steps (e.g. CDF step 2, power curves). All remain legible.
 
 ## 7. Missing-media checks
