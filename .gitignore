@@ -8,3 +8,4 @@ public/audio/sentences/
 *.log
 .remotion/
 tools/.cache/
+cheatsheet/build.html

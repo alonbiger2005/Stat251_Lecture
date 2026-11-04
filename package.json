@@ -16,7 +16,8 @@
     "render:preview": "tsx tools/render.ts preview",
     "render:full": "tsx tools/render.ts full",
     "render:mobile": "tools/make-mobile.sh",
-    "qa": "tsx tools/qa.ts"
+    "qa": "tsx tools/qa.ts",
+    "cheatsheet": "node cheatsheet/build.cjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.1.1",
