@@ -68,6 +68,13 @@ th { font-weight: 800; }
 .katex { font-size: 1.06em; }
 .eq .katex, .two .katex { font-size: 1.1em; }
 .master .katex { font-size: 1.03em; }
+.key { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 6px; border: 1px solid var(--ink); border-radius: 3px; padding: 2px 4px; margin-top: 3px; }
+.key .col h4 { margin: 0 0 1px; font-size: 0.98em; font-weight: 800; color: #fff; background: var(--ink); padding: 0.5px 3px; border-radius: 2px; }
+.key .it { margin: 0.6px 0; line-height: 1.17; }
+.key .it .katex { font-weight: 700; }
+.key .w { color: var(--mut); font-style: italic; }
+.where { color: var(--mut); margin: 1px 0; }
+.where b { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -80,8 +87,9 @@ th { font-weight: 800; }
     <div class="nav">
       <span class="chip" style="background:var(--ink)">A Which procedure?</span>
       <span class="chip" style="background:var(--m4)">1–4 Module 4</span>
-      <span class="chip" style="background:var(--tb)">5–7 Tables &amp; SE</span>
-      <span class="chip" style="background:var(--ci)">8–10 CI (side 2)</span>
+      <span class="chip" style="background:var(--tb)">5–6 z / t tables</span>
+      <span class="chip" style="background:var(--tb)">7 SE · Welch (side 2)</span>
+      <span class="chip" style="background:var(--ci)">8, 10 CI (side 2)</span>
       <span class="chip" style="background:var(--ht)">11–13 Tests (side 2)</span>
       <span class="chip" style="background:var(--ex)">14 Worked (side 2)</span>
       <span class="chip" style="background:var(--mc)">15–16 MC (side 2)</span>
@@ -90,16 +98,17 @@ th { font-weight: 800; }
 
   <div class="full">
     <table class="master">
-      <tr><th style="width:15%">A · If the question says…</th><th style="width:9%">Parameter → estimate</th><th style="width:25%">Two-sided CI (estimate ± crit × SE)</th><th style="width:27%">Test statistic (under H₀)</th><th style="width:11%">Table · df</th><th style="width:13%">Conditions (✓ both groups if 2)</th></tr>
-      <tr><td>“% / proportion of all…”, one yes/no group</td><td>$p\;\to\;\hat p=\tfrac{x}{n}$</td><td>$\hat p\pm z^*\sqrt{\dfrac{\hat p(1-\hat p)}{n}}$</td><td>$z=\dfrac{\hat p-p_0}{\sqrt{p_0(1-p_0)/n}}$ <span class="mut">← uses $p_0$!</span></td><td><b>z</b></td><td>random · 10% · CI: $n\hat p,n\hat q\ge10$; test: $np_0,nq_0\ge10$</td></tr>
-      <tr><td>compare % of two separate groups</td><td>$p_1-p_2\to\hat p_1-\hat p_2$</td><td>$(\hat p_1-\hat p_2)\pm z^*\sqrt{\dfrac{\hat p_1\hat q_1}{n_1}+\dfrac{\hat p_2\hat q_2}{n_2}}$</td><td>$z=\dfrac{(\hat p_1-\hat p_2)-0}{\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}}$ <span class="mut">(lecture: unpooled)</span></td><td><b>z</b></td><td>+ independent groups; S/F for each group</td></tr>
-      <tr><td>“average / mean of all…”, one group, $s$ given</td><td>$\mu\to\bar y$ $(=\bar x)$</td><td>$\bar y\pm t^*_{n-1}\dfrac{s}{\sqrt n}$</td><td>$t=\dfrac{\bar y-\mu_0}{s/\sqrt n}$</td><td><b>t</b>, $df=n-1$</td><td>random · 10% · Normal-ish or $n>30$ (heavy skew: $n>100$)</td></tr>
-      <tr><td>compare means of two separate groups</td><td>$\mu_1-\mu_2\to\bar y_1-\bar y_2$</td><td>$(\bar y_1-\bar y_2)\pm t^*_{\nu}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$</td><td>$t=\dfrac{(\bar y_1-\bar y_2)-\Delta_0}{\sqrt{s_1^2/n_1+s_2^2/n_2}}$, $\Delta_0$ usually 0</td><td><b>t</b>, Welch $\nu$ (§7) — round <b>down</b></td><td>+ independent groups</td></tr>
-      <tr><td>same subjects before/after, matched pairs</td><td>$\mu_d\to\bar d$ (one list $d_i$)</td><td>$\bar d\pm t^*_{n-1}\dfrac{s_d}{\sqrt n}$, $n$ = # pairs</td><td>$t=\dfrac{\bar d-d_0}{s_d/\sqrt n}$, $d_0$ usually 0</td><td><b>t</b>, $df=n-1$</td><td>random pairs · $d$'s Normal-ish</td></tr>
-      <tr><td>Normal $X$: P(value…) with $\mu,\sigma$ known</td><td>—</td><td>reverse: $x=\mu+z\sigma$</td><td>$z=\dfrac{x-\mu}{\sigma}$</td><td><b>z</b></td><td>told Normal</td></tr>
-      <tr><td>P(sample <b>mean</b> …) with $\mu,\sigma$ known</td><td>—</td><td>$\bar Y\approx N\!\left(\mu,\tfrac{\sigma^2}{n}\right)$</td><td>$z=\dfrac{\bar y-\mu}{\sigma/\sqrt n}$</td><td><b>z</b></td><td>Normal pop. or large $n$ (CLT)</td></tr>
-      <tr><td>“how many to sample for margin $E$?”</td><td>proportion</td><td colspan="2">$n=\left\lceil\dfrac{(z^*)^2\,\hat p(1-\hat p)}{E^2}\right\rceil$ — no prior estimate → $\hat p=.5$; <b>always round UP</b>; $E$ as a decimal (3% = .03)</td><td><b>z*</b></td><td>see §10 table</td></tr>
-    </table>
+      <tr><th style="width:17%">A · If the question says…</th><th style="width:13%">Parameter → estimate</th><th style="width:29%">Two-sided CI (estimate ± crit × SE)</th><th style="width:29%">Test statistic (under H₀)</th><th style="width:12%">Table · df <span style="font-weight:600">(conditions → §13)</span></th></tr>
+      <tr><td>“% / proportion of all…”, one yes/no group</td><td>$p\;\to\;\hat p=\tfrac{x}{n}$</td><td>$\hat p\pm z^*\sqrt{\dfrac{\hat p(1-\hat p)}{n}}$</td><td>$z=\dfrac{\hat p-p_0}{\sqrt{p_0(1-p_0)/n}}$ <span class="mut">← uses $p_0$!</span></td><td><b>z</b></td></tr>
+      <tr><td>compare % of two separate groups</td><td>$p_1-p_2\to\hat p_1-\hat p_2$</td><td>$(\hat p_1-\hat p_2)\pm z^*\sqrt{\dfrac{\hat p_1\hat q_1}{n_1}+\dfrac{\hat p_2\hat q_2}{n_2}}$</td><td>$z=\dfrac{(\hat p_1-\hat p_2)-0}{\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}}$ <span class="mut">(lecture: unpooled)</span></td><td><b>z</b></td></tr>
+      <tr><td>“average / mean of all…”, one group, $s$ given</td><td>$\mu\to\bar y$ $(=\bar x)$</td><td>$\bar y\pm t^*_{n-1}\dfrac{s}{\sqrt n}$</td><td>$t=\dfrac{\bar y-\mu_0}{s/\sqrt n}$</td><td><b>t</b>, $df=n-1$</td></tr>
+      <tr><td>compare means of two separate groups</td><td>$\mu_1-\mu_2\to\bar y_1-\bar y_2$</td><td>$(\bar y_1-\bar y_2)\pm t^*_{\nu}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$</td><td>$t=\dfrac{(\bar y_1-\bar y_2)-\Delta_0}{\sqrt{s_1^2/n_1+s_2^2/n_2}}$, $\Delta_0$ usually 0</td><td><b>t</b>, Welch $\nu$ (§7, side 2) — round <b>down</b></td></tr>
+      <tr><td>same subjects before/after, matched pairs</td><td>$\mu_d\to\bar d$ (one list $d_i$)</td><td>$\bar d\pm t^*_{n-1}\dfrac{s_d}{\sqrt n}$, $n$ = # pairs</td><td>$t=\dfrac{\bar d-d_0}{s_d/\sqrt n}$, $d_0$ usually 0</td><td><b>t</b>, $df=n-1$</td></tr>
+      <tr><td>Normal $X$: P(value…) with $\mu,\sigma$ known</td><td>—</td><td>reverse: $x=\mu+z\sigma$</td><td>$z=\dfrac{x-\mu}{\sigma}$</td><td><b>z</b></td></tr>
+      <tr><td>P(sample <b>mean</b> …) with $\mu,\sigma$ known</td><td>—</td><td>$\bar Y\approx N\!\left(\mu,\tfrac{\sigma^2}{n}\right)$</td><td>$z=\dfrac{\bar y-\mu}{\sigma/\sqrt n}$</td><td><b>z</b></td></tr>
+      <tr><td>“how many to sample for margin $E$?”</td><td>proportion</td><td colspan="2">$n=\left\lceil\dfrac{(z^*)^2\,\hat p(1-\hat p)}{E^2}\right\rceil$ — no prior estimate → $\hat p=.5$; <b>always round UP</b>; $E$ as a decimal (3% = .03)</td><td><b>z*</b></td></tr>
+      </table>
+    <div class="key"><div class="col"><h4>POPULATION (parameters &amp; claims)</h4><div class="it">$p$ = true population proportion (unknown). <span class="w">“the true % / proportion of all…”</span></div><div class="it">$\mu$ = true population mean (unknown). <span class="w">“true average of all…”, “mean of the population”</span></div><div class="it">$\sigma$ = population SD; $\sigma^2$ = variance. <span class="w">“population SD is…”, “SD = 0.04 s”; known σ → z</span></div><div class="it">$p_0,\;\mu_0$ = value claimed in $H_0$ (null value). <span class="w">“claims 52%”, “is the mean 0.400?”</span></div><div class="it">$q_0=1-p_0$ = complement of the null proportion.</div><div class="it">$p_1-p_2,\;\mu_1-\mu_2$ = difference between groups 1 and 2. <span class="w">“compare A vs B”</span></div><div class="it">$\mu_d$ = true mean of paired differences. <span class="w">“before/after on the same people”</span></div><div class="it">$\Delta_0,\;d_0$ = claimed difference in $H_0$ (usually 0). <span class="w">“no difference”</span></div><div class="it">$N$ = population size (10% condition).</div></div><div class="col"><h4>SAMPLE (what the data give you)</h4><div class="it">$n$ = sample size (# in sample; paired: # of pairs). <span class="w">“randomly sampled 36…”</span></div><div class="it">$x$ = # of “successes” (yes answers). <span class="w">“62 of 100 prefer…”</span></div><div class="it">$\hat p=\frac{x}{n}$ = sample proportion (“p-hat”). <span class="w">“62% of those sampled…”</span></div><div class="it">$\hat q=1-\hat p$ = sample proportion of “no”.</div><div class="it">$\bar y\;(=\bar x)$ = sample mean (“y-bar”). <span class="w">“the sample averaged 0.424 s”</span></div><div class="it">$s$ = sample SD; $s^2$ = sample variance. <span class="w">“sample standard deviation 0.060” → t</span></div><div class="it">$n_1,\bar y_1,s_1,\hat p_1$ = values for group 1 (subscript 2 = group 2).</div><div class="it">$d_i$ = one pair’s difference (e.g. after − before).</div><div class="it">$\bar d,\;s_d$ = mean and SD of the $d_i$ list.</div></div><div class="col"><h4>INFERENCE TOOLS</h4><div class="it">PE = point estimate (best single guess: $\hat p$, $\bar y$, …).</div><div class="it">$SE$ = standard error = SD of the estimate.</div><div class="it">$z^*,\;t^*_{df}$ = critical value from the confidence level. <span class="w">“95% confident”, “90% CI”</span></div><div class="it">$E$ (ME, $m$) = margin of error $=c^*\times SE$. <span class="w">“within ±3 points”, “accurate to .01”</span></div><div class="it">$C$ = confidence level; $\alpha=1-C$.</div><div class="it">$\alpha$ = significance level (P of Type I error). <span class="w">“at the 5% level”, “α = .05”</span></div><div class="it">$df,\;\nu$ = degrees of freedom (row of the t-table).</div><div class="it">$z,\;t$ = test statistic (# of SEs from the null).</div><div class="it">p-value = P(result this extreme or more | $H_0$ true).</div><div class="it">$H_0,\;H_a$ = null (has =) / alternative ($<,>,\ne$). <span class="w">“test whether…”, “is there evidence…”</span></div><div class="it">$\beta$ = P(Type II); power $=1-\beta$.</div></div><div class="col"><h4>MODULE 4 SYMBOLS</h4><div class="it">$X$ = the random variable (the quantity measured). <span class="w">“let X = time until…”</span></div><div class="it">$x$ = one specific value of $X$.</div><div class="it">$f(x)$ = PDF (density curve; area = probability). <span class="w">“the pdf is…”</span></div><div class="it">$F(x)$ = CDF $=P(X\le x)$, area to the left. <span class="w">“the cdf”, “at most x”</span></div><div class="it">$E[X],\;\operatorname{Var}(X)$ = mean / variance of $X$. <span class="w">“expected value”, “average”</span></div><div class="it">$a,\;b$ = Uniform min and max. <span class="w">“anywhere between a and b”</span></div><div class="it">$c,\;d$ = endpoints of the interval asked about.</div><div class="it">$\lambda$ = rate (events per time unit). <span class="w">“5 per hour”, “on average 2 per hour”</span></div><div class="it">$k$ = unknown constant in a PDF. <span class="w">“find k so f is a valid pdf”</span></div><div class="it">$Z,\;\Phi(z)$ = standard Normal; table area left of $z$.</div><div class="it">$x_p,\;m$ = $p$-th percentile; median ($F(m)=.5$). <span class="w">“90th percentile”, “median”</span></div></div></div>
   </div>
 
   <div class="cols">
@@ -129,6 +138,7 @@ th { font-weight: 800; }
       <p><span class="if">If you see:</span> “equally likely anywhere between $a$ and $b$”, flat density.</p>
       <div class="two"><span>$f(x)=\dfrac{1}{b-a},\;a\le x\le b$</span><span>$F(x)=\dfrac{x-a}{b-a}$</span></div>
       <div class="two"><span>$P(c<X<d)=\dfrac{d-c}{b-a}$</span><span>$E[X]=\dfrac{a+b}{2}$</span><span>$\operatorname{Var}=\dfrac{(b-a)^2}{12}$</span></div>
+      <p class="where"><b>where</b> $a$ = smallest possible value · $b$ = largest · $c,d$ = interval asked about · $b-a$ = total width · $p$ = percentile fraction (.90 for 90th).</p>
       <p><span class="tag socc">SOCCER</span> drill starts $U(0,20)$ min: $P(5<X<10)=\frac{5}{20}=.25$; mean 10; percentile: $x_p=a+p(b-a)$.</p>
     </section>
 
@@ -138,6 +148,7 @@ th { font-weight: 800; }
       <div class="two"><span>$f(x)=\lambda e^{-\lambda x},\;x\ge0$</span><span>$F(x)=1-e^{-\lambda x}$</span><span>$P(X>x)=e^{-\lambda x}$</span></div>
       <div class="eq">$P(a<X<b)=e^{-\lambda a}-e^{-\lambda b}\qquad E[X]=\sigma=\dfrac1\lambda,\;\operatorname{Var}=\dfrac1{\lambda^2}$</div>
       <div class="two"><span>percentile: $x_p=\dfrac{-\ln(1-p)}{\lambda}$</span><span>median $=\dfrac{\ln 2}{\lambda}$</span><span>memoryless: $P(X>s+t\mid X>s)=P(X>t)$</span></div>
+      <p class="where"><b>where</b> $\lambda$ = average # of events per time unit · $x$ = waiting time (same units as λ!) · $e\approx2.718$ · $\ln$ = natural log · $p$ = percentile fraction · $s,t$ = time already waited / extra time.</p>
       <div class="box"><span class="tag prof">LECTURE</span> $\lambda=5$/hour, first customer between 15 and 60 min. <b>Convert units first</b>: 0.25 h, 1 h.
         <div class="eq">$P(0.25<X<1)=e^{-5(0.25)}-e^{-5(1)}=.2865-.0067\approx\mathbf{.2798}$</div>
         Rate 5/hour ≠ wait of 5 hours. 2 goals/hour → mean wait $\tfrac12$ h = 30 min.</div>
@@ -147,6 +158,7 @@ th { font-weight: 800; }
       <h2><span class="n">4</span>Normal $X\sim N(\mu,\sigma^2)$</h2>
       <p><span class="if">If you see:</span> bell-shaped / Normal, $\mu$ and SD given. <b>Trap:</b> $N(\mu,\sigma^2)$ — 2nd number is the <b>variance</b>; $\sigma=\sqrt{\sigma^2}$.</p>
       <div class="two"><span>standardize: $z=\dfrac{x-\mu}{\sigma}$</span><span>un-standardize: $x=\mu+z\sigma$</span></div>
+      <p class="where"><b>where</b> $x$ = raw value (e.g. 0.46 s) · $\mu$ = population mean · $\sigma$ = population SD · $z$ = # of SDs above (+) / below (−) the mean.</p>
       <div class="box"><b>Probability:</b> $x\to z\to$ table area (§5). <b>Find a value/percentile:</b> area → find it <i>inside</i> the table → $z$ → $x=\mu+z\sigma$ (top 10% → left area .90 → $z=1.28$).</div>
       <p><b>68–95–99.7:</b> within $1\sigma,2\sigma,3\sigma$. <span class="tag socc">SOCCER</span> reaction $N(.40,.04^2)$: 68% in .36–.44 s; 95% in .32–.48 s (approx. only — use the table for exact).</p>
     </section>
@@ -154,6 +166,7 @@ th { font-weight: 800; }
     <section class="tb">
       <h2><span class="n">5</span>z-table: area to the LEFT of z</h2>
       <p class="eq">table entry $=\Phi(z)=P(Z\le z)$</p>
+      <p class="where"><b>where</b> $Z$ = standard Normal (mean 0, SD 1) · $\Phi(z)$ = area LEFT of $z$.</p>
       <p>Row = $z$ to 1 decimal, column = 2nd decimal. $z=1.96$: row 1.9, col .06 → .9750. Negative $z$ → negative half of the table.</p>
       <table>
         <tr><th>Want</th><th>Do</th><th>e.g. $z=1.20$ ($\Phi=.8849$)</th></tr>
@@ -163,13 +176,7 @@ th { font-weight: 800; }
         <tr><td>outside $\pm|z|$</td><td>$2[1-\Phi(|z|)]$</td><td>$z=2$: $2(.0228)=.0456$</td></tr>
         <tr><td>$z$ from an area</td><td>find area inside table</td><td>.8849 → 1.20</td></tr>
       </table>
-      <h3>Critical values $z^*$ (memorize / check in table)</h3>
-      <table class="zt">
-        <tr><th>Confidence $C$</th><td>80%</td><td>90%</td><td>95%</td><td>98%</td><td>99%</td></tr>
-        <tr><th>look up left area</th><td>.9000</td><td>.9500</td><td>.9750</td><td>.9900</td><td>.9950</td></tr>
-        <tr><th>$z^*$ (two-sided)</th><td>1.282</td><td>1.645</td><td><b>1.960</b></td><td>2.326</td><td>2.576</td></tr>
-      </table>
-      <p>One-sided ($\alpha$ in one tail): $\alpha=.10\to1.282$, $.05\to1.645$, $.01\to2.326$. Rule: two-sided $C$ → left area $1-\frac{\alpha}{2}$.</p>
+      <div class="box"><b>$z^*$ (two-sided, look up left area $1-\frac{\alpha}{2}$):</b> 80% 1.282 · 90% 1.645 · <b>95% 1.960</b> · 98% 2.326 · 99% 2.576. <b>One-sided</b> (α in one tail): .10 → 1.282 · .05 → 1.645 · .01 → 2.326.</div>
     </section>
 
     <section class="tb">
@@ -181,31 +188,8 @@ th { font-weight: 800; }
       e.g. $df=35$: $2.030<\mathbf{2.40}<2.438$ → $.01<p<.025$ (one-tail).</div>
     </section>
 
-    <section class="tb">
-      <h2><span class="n">7</span>Sampling distributions, SE &amp; Welch df</h2>
-      <div class="two"><span>$\bar Y\approx N\!\left(\mu,\dfrac{\sigma^2}{n}\right),\;SE(\bar y)=\dfrac{\sigma}{\sqrt n}\approx\dfrac{s}{\sqrt n}$</span><span>$\hat p\approx N\!\left(p,\dfrac{p(1-p)}{n}\right),\;SE(\hat p)=\sqrt{\dfrac{p(1-p)}{n}}$</span></div>
-      <p><b>SD</b> = spread of individuals; <b>SE</b> = spread of a statistic over repeated samples. $n$ ×4 → SE ÷2.</p>
-      <p><span class="if">CLT probability:</span> $P(\bar Y>c)=1-\Phi\!\left(\frac{c-\mu}{\sigma/\sqrt n}\right)$. <span class="mut">Practice: $\mu=.40,\sigma=.04,n=16$: SE $=.01$; $P(\bar Y>.42)=1-\Phi(2.00)=.0228$.</span></p>
-      <p><b>Sample SD</b> (e.g. of paired $d_i$): $s=\sqrt{\dfrac{\sum(x_i-\bar x)^2}{n-1}}$</p>
-      <div class="eq">$\nu\approx\dfrac{\left(\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2/n_1)^2}{n_1-1}+\frac{(s_2^2/n_2)^2}{n_2-1}}$ <span class="mut">(“crazy df”)</span></div>
-      <p class="mut">Compute $A=s_1^2/n_1$, $B=s_2^2/n_2$ first: $\nu=(A+B)^2/\big(\tfrac{A^2}{n_1-1}+\tfrac{B^2}{n_2-1}\big)$. If allowed, conservative shortcut $df=\min(n_1,n_2)-1$.</p>
-    </section>
 
 
-    <section class="tb">
-      <h2><span class="n">+</span>Reverse z lookups (percentiles &amp; cutoffs)</h2>
-      <table class="zt">
-        <tr><th>Want</th><th>left area to find</th><th>$z$</th></tr>
-        <tr><td>top 10% / 90th pct</td><td>.9000</td><td>1.28</td></tr>
-        <tr><td>top 5% / 95th pct</td><td>.9500</td><td>1.645</td></tr>
-        <tr><td>top 2.5%</td><td>.9750</td><td>1.96</td></tr>
-        <tr><td>top 1%</td><td>.9900</td><td>2.33</td></tr>
-        <tr><td>bottom 10% / 5%</td><td>.1000 / .0500</td><td>−1.28 / −1.645</td></tr>
-        <tr><td>middle 90% / 95% / 99%</td><td>tails .05 / .025 / .005</td><td>±1.645 / ±1.96 / ±2.576</td></tr>
-        <tr><td>quartiles Q1 / Q3</td><td>.2500 / .7500</td><td>−0.67 / 0.67</td></tr>
-      </table>
-      <p>Then $x=\mu+z\sigma$ (individual) or $\bar y=\mu+z\,\sigma/\sqrt n$ (sample mean). Area between two closest table entries → pick the closer one (or average).</p>
-    </section>
 
   </div>
 </div>
@@ -216,7 +200,8 @@ th { font-weight: 800; }
     <span class="side">SIDE 2</span>
     <h1>Inference: CIs · Tests · Worked Examples · MC</h1>
     <div class="nav">
-      <span class="chip" style="background:var(--ci)">8–10 Confidence intervals</span>
+      <span class="chip" style="background:var(--ci)">8, 10 CIs</span>
+      <span class="chip" style="background:var(--tb)">7 SE · Welch df · reverse z</span>
       <span class="chip" style="background:var(--ht)">11–13 Hypothesis tests</span>
       <span class="chip" style="background:var(--ex)">14 Worked examples</span>
       <span class="chip" style="background:var(--mc)">15–16 MC must-knows</span>
@@ -239,17 +224,11 @@ th { font-weight: 800; }
       <h3>One-sided bounds ($\alpha=1-C$ in ONE tail)</h3>
       <div class="two"><span>lower: $(\text{PE}-c^*SE,\;\infty)$</span><span>upper: $(-\infty,\;\text{PE}+c^*SE)$</span></div>
       <p>$c^*$: z with left area $C$ (90% → 1.282), or t from column $\alpha$ (90% → .10 column). <span class="mut">Professor's equivalent: negative z with left area $\alpha$, compute PE + z·SE.</span></p>
+      <p class="mut">All five CI formulas are in table A (side 1). $t^*_{n-1}$: subscript = df, not “t* minus 1”. Paired: $n$ = # pairs.</p>
       <h3>Difference CIs: look at 0</h3>
       <p>Contains 0 → “no difference” plausible · all &gt; 0 → group 1 larger · all &lt; 0 → group 1 smaller.</p>
     </section>
 
-    <section class="ci">
-      <h2><span class="n">9</span>CI — the five formulas, written out</h2>
-      <div class="two"><span>$\hat p\pm z^*\sqrt{\dfrac{\hat p(1-\hat p)}{n}}$</span><span>$\bar y\pm t^*_{n-1}\dfrac{s}{\sqrt n}$</span><span>$\bar d\pm t^*_{n-1}\dfrac{s_d}{\sqrt n}$</span></div>
-      <div class="eq">$(\hat p_1-\hat p_2)\pm z^*\sqrt{\dfrac{\hat p_1(1-\hat p_1)}{n_1}+\dfrac{\hat p_2(1-\hat p_2)}{n_2}}$</div>
-      <div class="eq">$(\bar y_1-\bar y_2)\pm t^*_{\nu}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$</div>
-      <p class="mut">$t^*_{n-1}$: the subscript is the df, not “t* minus 1”. Paired: $n$ = number of pairs; compute each $d_i$ in the stated direction first.</p>
-    </section>
 
     <section class="ci">
       <h2><span class="n">10</span>Sample size for a proportion</h2>
@@ -262,6 +241,33 @@ th { font-weight: 800; }
         <tr><th>99% ($2.576$)</th><td>16590</td><td>4148</td><td>1844</td><td>1037</td><td>664</td></tr>
       </table>
       <p class="mut">Halve $E$ → 4× the sample. $\frac{1.96^2(.5)(.5)}{.01^2}=9604$.</p>
+    </section>
+
+    <section class="tb">
+      <h2><span class="n">+</span>Reverse z lookups (percentiles &amp; cutoffs)</h2>
+      <table class="zt">
+        <tr><th>Want</th><th>left area to find</th><th>$z$</th></tr>
+        <tr><td>top 10% / 90th pct</td><td>.9000</td><td>1.28</td></tr>
+        <tr><td>top 5% / 95th pct</td><td>.9500</td><td>1.645</td></tr>
+        <tr><td>top 2.5%</td><td>.9750</td><td>1.96</td></tr>
+        <tr><td>top 1%</td><td>.9900</td><td>2.33</td></tr>
+        <tr><td>bottom 10% / 5%</td><td>.1000 / .0500</td><td>−1.28 / −1.645</td></tr>
+        <tr><td>middle 90% / 95% / 99%</td><td>tails .05 / .025 / .005</td><td>±1.645 / ±1.96 / ±2.576</td></tr>
+        <tr><td>quartiles Q1 / Q3</td><td>.2500 / .7500</td><td>−0.67 / 0.67</td></tr>
+      </table>
+      <p>Then $x=\mu+z\sigma$ (individual) or $\bar y=\mu+z\,\sigma/\sqrt n$ (sample mean). Area between two closest table entries → pick the closer one (or average).</p>
+    </section>
+
+    <section class="tb">
+      <h2><span class="n">7</span>Sampling distributions, SE &amp; Welch df</h2>
+      <div class="two"><span>$\bar Y\approx N\!\left(\mu,\dfrac{\sigma^2}{n}\right),\;SE(\bar y)=\dfrac{\sigma}{\sqrt n}\approx\dfrac{s}{\sqrt n}$</span><span>$\hat p\approx N\!\left(p,\dfrac{p(1-p)}{n}\right),\;SE(\hat p)=\sqrt{\dfrac{p(1-p)}{n}}$</span></div>
+      <p class="where"><b>where</b> $\bar Y$ = sample mean (random) · $c$ = cutoff in the question · other symbols: key on side 1.</p>
+      <p><b>SD</b> = spread of individuals; <b>SE</b> = spread of a statistic over repeated samples. $n$ ×4 → SE ÷2.</p>
+      <p><span class="if">CLT probability:</span> $P(\bar Y>c)=1-\Phi\!\left(\frac{c-\mu}{\sigma/\sqrt n}\right)$. <span class="mut">Practice: $\mu=.40,\sigma=.04,n=16$: SE $=.01$; $P(\bar Y>.42)=1-\Phi(2.00)=.0228$.</span></p>
+      <p><b>Sample SD</b> (e.g. of paired $d_i$): $s=\sqrt{\dfrac{\sum(x_i-\bar x)^2}{n-1}}$</p>
+      <div class="eq">$\nu\approx\dfrac{\left(\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2/n_1)^2}{n_1-1}+\frac{(s_2^2/n_2)^2}{n_2-1}}$ <span class="mut">(“crazy df”)</span></div>
+      <p class="where"><b>where</b> $s_1,s_2$ = sample SDs · $n_1,n_2$ = group sizes · $x_i$ = each data value · $\bar x$ = their mean · $\nu$ (“nu”) = Welch df.</p>
+      <p class="mut">Compute $A=s_1^2/n_1$, $B=s_2^2/n_2$ first: $\nu=(A+B)^2/\big(\tfrac{A^2}{n_1-1}+\tfrac{B^2}{n_2-1}\big)$. If allowed, conservative shortcut $df=\min(n_1,n_2)-1$.</p>
     </section>
 
     <section class="ht">
@@ -360,28 +366,7 @@ th { font-weight: 800; }
       </ul>
     </section>
 
-    <section class="ht">
-      <h2><span class="n">→</span>Exam-day decision flow (calc questions)</h2>
-      <div class="box">
-        <b>1 · What is asked?</b> probability of a continuous value → <b>Module 4</b> (§1–4) · a range for a parameter → <b>CI</b> (§8–10) · evidence about a claim → <b>test</b> (§11–12) · “how many to sample” → §10.<br>
-        <b>2 · Which parameter?</b> $p$ · $p_1-p_2$ · $\mu$ · $\mu_1-\mu_2$ · $\mu_d$ (table A, side 1).<br>
-        <b>3 · z or t?</b> proportions & Normal-with-known-σ → <b>z</b>; means with $s$ → <b>t</b> (df!).<br>
-        <b>4 · Formula</b> → write it, plug in, SE first.<br>
-        <b>5 · Tail</b> from $H_a$ (&lt; left, &gt; right, ≠ both) — tests only.<br>
-        <b>6 · Table</b>: z → left area; t → df row + upper-tail column.<br>
-        <b>7 · Decide &amp; conclude</b> in context (“fail to reject”, “95% confident”).
-      </div>
-    </section>
 
-    <section class="mc">
-      <h2><span class="n">!</span>Calculator / table habits</h2>
-      <ul>
-        <li>Keep 4 decimals until the end; round $z$ to 2 decimals to read the table.</li>
-        <li>Write the <b>formula first</b>, then plug in — partial credit.</li>
-        <li>Sketch the curve and shade the area you need every time.</li>
-        <li>Keep subtraction order (group 1 − group 2) the same in $H_a$, estimate and conclusion.</li>
-      </ul>
-    </section>
   </div>
 </div>
 </body>
