@@ -191,6 +191,15 @@ th { font-weight: 800; }
 
 
 
+    <section class="m4">
+      <h2><span class="n">★</span>Module 4 time-savers</h2>
+      <ul>
+        <li><b>Unit change</b> $Y=aX+b$: $E[Y]=aE[X]+b$, $\operatorname{Var}(Y)=a^2\operatorname{Var}(X)$.</li>
+        <li><b>Exponential backwards:</b> $P(X>x)=q\Rightarrow x=\frac{-\ln q}{\lambda}$; mean given → $\lambda=\frac1{\text{mean}}$.</li>
+        <li><b>Normal:</b> $P(-z<Z<z)=2\Phi(z)-1$; solve $\sigma=\frac{x-\mu}{z}$ or $\mu=x-z\sigma$.</li>
+      </ul>
+    </section>
+
   </div>
 </div>
 
@@ -363,6 +372,37 @@ th { font-weight: 800; }
         <li>Paired ≠ two independent groups. Means → t, proportions → z.</li>
         <li>Sample size: round <b>up</b>; $E$ as decimal.</li>
         <li>Zero in a difference CI = no difference plausible.</li>
+      </ul>
+    </section>
+
+
+    <section class="ci">
+      <h2><span class="n">✎</span>Two-group CI recipes (step by step)</h2>
+      <div class="box"><b>$p_1-p_2$:</b> ① $\hat p_1=\frac{x_1}{n_1}$, $\hat p_2=\frac{x_2}{n_2}$ ② PE $=\hat p_1-\hat p_2$ ③ $SE=\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}$ ④ $z^*$ ⑤ PE $\pm z^*SE$ ⑥ check $n_1\hat p_1,n_1\hat q_1,n_2\hat p_2,n_2\hat q_2\ge10$ ⑦ read vs 0.</div>
+      <div class="box"><b>$\mu_1-\mu_2$:</b> ① $A=\frac{s_1^2}{n_1}$, $B=\frac{s_2^2}{n_2}$ ② $SE=\sqrt{A+B}$ ③ $\nu=\frac{(A+B)^2}{A^2/(n_1-1)+B^2/(n_2-1)}$, round down ④ $t^*$ from row $\nu$, column $\alpha/2$ ⑤ $(\bar y_1-\bar y_2)\pm t^*SE$ ⑥ read vs 0.</div>
+      <div class="box"><b>Paired:</b> ① $d_i$ = (after − before) for every subject ② $\bar d=\frac{\sum d_i}{n}$ ③ $s_d=\sqrt{\frac{\sum(d_i-\bar d)^2}{n-1}}$ ④ $t^*_{n-1}$ ⑤ $\bar d\pm t^*\frac{s_d}{\sqrt n}$.</div>
+    </section>
+
+    <section class="tb">
+      <h2><span class="n">t*</span>t-table check strip (upper-tail areas)</h2>
+      <table class="zt">
+        <tr><th>df</th><th>.10</th><th>.05</th><th>.025</th><th>.01</th><th>.005</th></tr>
+        <tr><td>10</td><td>1.372</td><td>1.812</td><td>2.228</td><td>2.764</td><td>3.169</td></tr>
+        <tr><td>20</td><td>1.325</td><td>1.725</td><td>2.086</td><td>2.528</td><td>2.845</td></tr>
+        <tr><td>30</td><td>1.310</td><td>1.697</td><td>2.042</td><td>2.457</td><td>2.750</td></tr>
+        <tr><td>35</td><td>1.306</td><td>1.690</td><td>2.030</td><td>2.438</td><td>2.724</td></tr>
+        <tr><td>∞ (z)</td><td>1.282</td><td>1.645</td><td>1.960</td><td>2.326</td><td>2.576</td></tr>
+      </table>
+      <p class="mut">Only to confirm your table reading; t* → z* as df grows.</p>
+    </section>
+
+    <section class="mc">
+      <h2><span class="n">✍</span>Sentence bank (numbers = placeholders)</h2>
+      <ul>
+        <li><b>CI:</b> “We are 95% confident the true mean reaction time of all college goalkeepers is between .405 and .443 s.”</li>
+        <li><b>Difference CI:</b> “…true difference $p_1-p_2$ is between −.04 and .12; since 0 is inside, no difference is plausible.”</li>
+        <li><b>Reject:</b> “p = .015 ≤ α = .05, so reject $H_0$. There is convincing evidence that [$H_a$ in context].”</li>
+        <li><b>Fail to reject:</b> “p = .19 &gt; α = .10, so fail to reject $H_0$. There is not enough evidence that [$H_a$ in context].”</li>
       </ul>
     </section>
 
